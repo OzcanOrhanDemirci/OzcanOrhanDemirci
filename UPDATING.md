@@ -48,7 +48,7 @@ with Chrome, and `github-markdown-css` (path at the top of the script).
 
 - Images of private projects may appear; their code never does. Private projects link to
   their public `-showcase` repository.
-- U-108-Remake appears nowhere on this page.
+- One personal project is kept off this page; the notebook names it.
 - Animations are WebP or GIF, never animated SVG (it does not always play in GitHub's
   mobile app). GitHub strips JavaScript and CSS.
 - Fonts: IBM Plex (SIL Open Font License, `media/fonts/OFL.txt`), the same family as the
