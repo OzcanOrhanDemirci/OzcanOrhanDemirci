@@ -2,7 +2,8 @@
 
     python tools/quiz_scene.py
 
-Reads media/quiz/recipe.json. The projector is cut from the showcase's local run
+Reads every media/quiz/recipe*.json: recipe.json is the English run (scene.webp, the
+English section), recipe-tr.json the Turkish one (scene-tr.webp). The projector is cut from the showcase's local run
 (bilgi-yarismasi-showcase/yerel, bot players, no real names); each segment shows the phone
 screen of the same moment: answering, a right answer, the leaderboard, the podium.
 Writes an animated WebP with a transparent background, so it sits on light and dark themes.
@@ -51,7 +52,11 @@ def screen_frame(size, bezel, radius, body, rim):
 
 
 def main():
-    r = json.loads((DIR / "recipe.json").read_text(encoding="utf-8"))
+    for path in sorted(DIR.glob("recipe*.json")):
+        build(json.loads(path.read_text(encoding="utf-8")))
+
+
+def build(r):
     f = r["frame"]
     bz = r["bezel"]
     sw = r["screen_width"]

@@ -7,6 +7,7 @@
   "tags_en": "TypeScript · Claude Code plugin · open source",
   "tags_tr": "TypeScript · Claude Code eklentisi · açık kaynak",
   "alt": "Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens",
+  "alt_tr": "Mode_Code'un terminaldeki kontrol merkezi, Türkçe: kemerin komut sınama ekranına git push origin +HEAD:main yazılır ve korunan dala zorla push olarak engellenir, sonra emniyet kemeri kuralları açılır",
   "media": {
     "frames": {
       "glob": "C:/dev/video/public/showreel/modecode/h/f*.png",
@@ -17,5 +18,10 @@
       1600,
       900
     ]
+  },
+  "media_tr": {
+    "frames": {
+      "glob": "C:/dev/video/public/showreel/modecode/h-tr/f*.png"
+    }
   }
 }

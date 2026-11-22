@@ -7,6 +7,7 @@
   "tags_en": "Flutter · Dart · open source",
   "tags_tr": "Flutter · Dart · açık kaynak",
   "alt": "Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis",
+  "alt_tr": "Anatolia Heritage: açılış ekranı, 21 alan, Efes ve stratigrafik analizi",
   "media": {
     "phones": {
       "srcs": [
@@ -22,5 +23,15 @@
       1600,
       900
     ]
+  },
+  "media_tr": {
+    "phones": {
+      "srcs": [
+        "C:/dev/jarvis/yerel/gh-arkeoloji/tr/s0.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/tr/s1.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/tr/s2.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/tr/s3.png"
+      ]
+    }
   }
 }

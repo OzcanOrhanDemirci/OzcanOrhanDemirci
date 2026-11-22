@@ -162,7 +162,7 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Seçili işler
 
 <!-- cards:tr -->
-<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode-tr.webp" width="100%" alt="Mode_Code'un terminaldeki kontrol merkezi, Türkçe: kemerin komut sınama ekranına git push origin +HEAD:main yazılır ve korunan dala zorla push olarak engellenir, sonra emniyet kemeri kuralları açılır"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
 Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır.<br>
@@ -170,7 +170,7 @@ Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve d
 
 <br>
 
-<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></p>
+<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: bir denizaltının kontrol odası, Mağribi bir ayna labirenti, ormanda bir dere, gün batımında bir dağ, küçük bir adada su altı, ölçek yolculuğundan Dünya"></p>
 
 <p><b>pc_graphics</b><br>
 Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışını hesaplanır, hiçbir şey boyanmaz.<br>
@@ -178,7 +178,7 @@ Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışın
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: salonun fanları ve sıcaklık panoları, sonra RGB konsoluna yürüyüş"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, içinde yürünen 3B bir salon olarak.<br>
@@ -186,7 +186,7 @@ Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, i�
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: uygulamanın kendi gölgelendiricilerinden çizilmiş sinematik Vulkan sahneleri: bir reaktör havuzunun parlayan çekirdeği, bir kara delik, yağmurlu bir orman, beyaz halkalı bir tünel"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
 Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly işlemci yükleri, Vulkan GPU yakıcıları ve sinematik sahneler, PDF rapor.<br>
@@ -194,7 +194,7 @@ Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology-tr.webp" width="100%" alt="Anatolia Heritage: açılış ekranı, 21 alan, Efes ve stratigrafik analizi"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
 Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki dilli rehber. Bitirme projem.<br>
@@ -202,7 +202,7 @@ Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki d
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.<br>
@@ -210,7 +210,7 @@ Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir ge
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="60%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist-tr.webp" width="60%" alt="Mobil_App_Check_List: tek bir kontrol maddesi, metni Flutter ve Firebase, React Native ve Supabase, Kotlin ve PocketBase için yeniden yazılmış"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>

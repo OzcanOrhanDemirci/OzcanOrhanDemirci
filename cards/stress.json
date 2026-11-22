@@ -7,6 +7,7 @@
   "tags_en": "Kotlin · Vulkan · AArch64",
   "tags_tr": "Kotlin · Vulkan · AArch64",
   "alt": "stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel",
+  "alt_tr": "stress_test: uygulamanın kendi gölgelendiricilerinden çizilmiş sinematik Vulkan sahneleri: bir reaktör havuzunun parlayan çekirdeği, bir kara delik, yağmurlu bir orman, beyaz halkalı bir tünel",
   "media": {
     "frames": {
       "globs": [

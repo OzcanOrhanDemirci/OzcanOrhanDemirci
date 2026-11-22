@@ -19,6 +19,12 @@ says where the picture comes from:
 
 The sources are outside this repository (in the projects themselves); the recipe keeps
 the path, so a card can be rebuilt or re-cut later.
+
+A project whose app speaks both languages also has "media_tr": the same recipe with the
+Turkish sources, built into media/cards/<id>-tr.webp for the Turkish section. Its keys
+replace those of "media" (a nested one like "phones" is merged one level deep), so it
+only names what differs. A one-language app has no "media_tr" and shows one picture in
+both sections.
 """
 import glob
 import json
@@ -105,12 +111,30 @@ def dissolve(parts, n):
     return seq
 
 
+def variants(c: dict):
+    """(output name, recipe) for the card's picture and, if it has one, its Turkish one."""
+    base = c["media"]
+    yield c["id"], base
+    tr = c.get("media_tr")
+    if tr:
+        merged = dict(base)
+        for k, v in tr.items():
+            merged[k] = {**base[k], **v} if isinstance(v, dict) and isinstance(base.get(k), dict) else v
+        yield c["id"] + "-tr", merged
+
+
 def build(cid: str) -> None:
-    global W, H, MASK
-    r = json.loads((RECIPES / f"{cid}.json").read_text(encoding="utf-8"))["media"]
-    if not r:
+    c = json.loads((RECIPES / f"{cid}.json").read_text(encoding="utf-8"))
+    c["id"] = cid
+    if not c.get("media"):
         print(f"{cid}: no media recipe yet")
         return
+    for name, r in variants(c):
+        render(name, r)
+
+
+def render(name: str, r: dict) -> None:
+    global W, H, MASK
     W, H = r.get("size", (800, 450))
     MASK = None
     crop = r.get("crop")
@@ -140,7 +164,7 @@ def build(cid: str) -> None:
         seq, fps = [contain(im, s["contain"]) if s.get("contain") else fit(im, crop)], 0
     frames = [finish(f) for f in seq]
     OUT.mkdir(parents=True, exist_ok=True)
-    out = OUT / f"{cid}.webp"
+    out = OUT / f"{name}.webp"
     q = r.get("quality", 78)
     if len(frames) > 1:
         frames[0].save(out, save_all=True, append_images=frames[1:], duration=round(1000 / fps),

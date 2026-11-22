@@ -1,6 +1,7 @@
-"""ChefOl phone loop: media/chefol/phone.webp, built from media/chefol/recipe.json.
+"""ChefOl phone loop: media/chefol/phone.webp, built from media/chefol/recipe.json, and
+media/chefol/phone-tr.webp from recipe-tr.json (the app in Turkish, for the Turkish section).
 
-    python tools/phone.py
+    python tools/phone.py            every recipe*.json in media/chefol/
 
 The app's screens take turns inside a phone frame drawn here: a rounded graphite body
 with a faint rim, a thin bezel, a punch-hole camera and two side keys, on a transparent
@@ -80,7 +81,11 @@ class Phone:
 
 
 def main():
-    r = json.loads((DIR / "recipe.json").read_text(encoding="utf-8"))
+    for path in sorted(DIR.glob("recipe*.json")):
+        build(json.loads(path.read_text(encoding="utf-8")))
+
+
+def build(r):
     shots = [Image.open(DIR / s).convert("RGB") for s in r["screens"]]
     w, h = shots[0].size
     phone = Phone(r["width"], h / w, r["frame"])

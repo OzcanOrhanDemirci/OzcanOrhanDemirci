@@ -12,6 +12,9 @@ a phone two cards became two thin columns of text with small pictures, and there
 media queries to fix that. A card with "light": true (a low-key project) gets a smaller
 picture, so the strong ones lead.
 
+A card with "media_tr" (an app that speaks both languages) shows media/cards/<id>-tr.webp
+in the Turkish section, and "alt_tr" is the Turkish section's alt text.
+
 A card without "link" (its repository not yet public) shows its picture and name
 unlinked, so a visitor never meets a dead link.
 """
@@ -29,7 +32,9 @@ def linked(c: dict, inner: str) -> str:
 
 def card(c: dict, lang: str) -> str:
     width = LIGHT_WIDTH if c.get("light") else "100%"
-    img = f'<img src="media/cards/{c["id"]}.webp" width="{width}" alt="{c["alt"]}">'
+    pic = c["id"] + ("-tr" if lang == "tr" and c.get("media_tr") else "")
+    alt = c.get("alt_" + lang) or c["alt"]
+    img = f'<img src="media/cards/{pic}.webp" width="{width}" alt="{alt}">'
     return (f'<p>{linked(c, img)}</p>\n\n'
             f'<p><b>{linked(c, c["name"])}</b><br>\n'
             f'{c[lang]}<br>\n'

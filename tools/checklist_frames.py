@@ -2,12 +2,12 @@
 
     python tools/checklist_frames.py
 
-Serves C:/dev/Mobil_App_Check_List locally, opens the PWA in Playwright (English,
-technical wording, dark, showcase design, a phone-width viewport) once per
+Serves C:/dev/Mobil_App_Check_List locally, opens the PWA in Playwright (in English and
+in Turkish, technical wording, dark, showcase design, a phone-width viewport) once per
 framework/backend pair below, and shoots the project pill and item 6.1 ("Backend
 Connection and Authentication"), whose text is written for each stack. Each pair is
-composed into an 800x450 still in media/sources/checklist/; cards/checklist.json
-dissolves between them. Needs Python Playwright with Chromium.
+composed into an 800x450 still in media/sources/checklist/ (the Turkish ones in its tr/);
+cards/checklist.json dissolves between them. Needs Python Playwright with Chromium.
 """
 import json
 import pathlib
@@ -37,17 +37,20 @@ def free_port():
         return s.getsockname()[1]
 
 
-def shoot(page, port, fw, be, tmp):
+NAMES = {"en": "My App", "tr": "Uygulamam"}
+
+
+def shoot(page, port, fw, be, tmp, lang):
     store = {"version": 1, "activeId": "p", "projects": [{
-        "id": "p", "name": "My App", "createdAt": "2026-11-01T10:00:00Z", "updatedAt": "2026-11-01T10:00:00Z",
+        "id": "p", "name": NAMES[lang], "createdAt": "2026-11-01T10:00:00Z", "updatedAt": "2026-11-01T10:00:00Z",
         "data": {"framework": fw, "backend": be, "state": {}, "notes": {}, "collapsed": [], "celebrations": {},
                  "viewMode": "both", "viewFilter": "all", "lockState": False, "collapseInit": False}}]}
     page.goto(f"http://127.0.0.1:{port}/", wait_until="domcontentloaded")
-    page.evaluate("""(s) => {
+    page.evaluate("""([s, lang]) => {
         const set = (k, v) => localStorage.setItem(k, v);
-        set('mobil_kontrol_projects_v2', s); set('mobil_kontrol_lang_v1', 'en');
+        set('mobil_kontrol_projects_v2', s); set('mobil_kontrol_lang_v1', lang);
         set('mobil_kontrol_style_v1', 'technical'); set('mobil_kontrol_mode_v1', 'build');
-        set('mobil_kontrol_theme_v1', 'dark'); set('mobil_kontrol_design_v1', 'showcase'); }""", json.dumps(store))
+        set('mobil_kontrol_theme_v1', 'dark'); set('mobil_kontrol_design_v1', 'showcase'); }""", [json.dumps(store), lang])
     page.reload(wait_until="networkidle")
     page.wait_for_timeout(700)
     page.evaluate("""() => {
@@ -57,7 +60,7 @@ def shoot(page, port, fw, be, tmp):
         st.textContent = '[class*=sticky], #installBanner { position: static !important; }';
         document.head.appendChild(st); }""")
     page.wait_for_timeout(500)
-    pill = tmp / f"{fw}_pill.png"
+    pill = tmp / f"{lang}_{fw}_pill.png"
     page.locator("#projectFrameworkBtn .proj-pill-rows").screenshot(path=pill)
     page.evaluate("""(sel) => { const r = document.querySelector(sel).getBoundingClientRect();
         scrollTo(0, r.top + scrollY - 12); }""", ITEM)
@@ -65,7 +68,7 @@ def shoot(page, port, fw, be, tmp):
     x, y, w = page.evaluate("""(sel) => { const r = document.querySelector(sel).getBoundingClientRect();
         return [r.left, r.top, r.width]; }""", ITEM)
     h = (H - 2 * PAD) * w / RIGHT_W  # the same scale for every pair, so the text does not jump
-    item = tmp / f"{fw}_item.png"
+    item = tmp / f"{lang}_{fw}_item.png"
     page.screenshot(path=item, clip={"x": x, "y": y, "width": w, "height": h})
     return Image.open(pill).convert("RGB"), Image.open(item).convert("RGB")
 
@@ -105,14 +108,16 @@ def main():
         time.sleep(1.5)
         with sync_playwright() as p, tempfile.TemporaryDirectory() as tmp:
             browser = p.chromium.launch()
-            for fw, be in PAIRS:
-                ctx = browser.new_context(viewport={"width": VIEW_W, "height": 900}, device_scale_factor=DPR,
-                                          is_mobile=True, has_touch=True, reduced_motion="reduce")
-                pill, item = shoot(ctx.new_page(), port, fw, be, pathlib.Path(tmp))
-                path = OUT / f"{fw}-{be}.png"
-                compose(pill, item).save(path)
-                print(path.relative_to(ROOT))
-                ctx.close()
+            for lang, out in (("en", OUT), ("tr", OUT / "tr")):
+                out.mkdir(parents=True, exist_ok=True)
+                for fw, be in PAIRS:
+                    ctx = browser.new_context(viewport={"width": VIEW_W, "height": 900}, device_scale_factor=DPR,
+                                              is_mobile=True, has_touch=True, reduced_motion="reduce")
+                    pill, item = shoot(ctx.new_page(), port, fw, be, pathlib.Path(tmp), lang)
+                    path = out / f"{fw}-{be}.png"
+                    compose(pill, item).save(path)
+                    print(path.relative_to(ROOT))
+                    ctx.close()
             browser.close()
     finally:
         server.terminate()

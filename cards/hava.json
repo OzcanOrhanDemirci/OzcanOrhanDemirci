@@ -8,6 +8,7 @@
   "tags_en": "Kotlin · Jetpack Compose · Open-Meteo",
   "tags_tr": "Kotlin · Jetpack Compose · Open-Meteo",
   "alt": "Hava: the city list, a day and a night detail; the sky behind is the data",
+  "alt_tr": "Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi",
   "media": {
     "phones": {
       "srcs": [

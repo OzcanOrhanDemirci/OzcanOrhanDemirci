@@ -8,6 +8,7 @@
   "tags_en": "JavaScript · PWA · open source",
   "tags_tr": "JavaScript · PWA · açık kaynak",
   "alt": "Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase",
+  "alt_tr": "Mobil_App_Check_List: tek bir kontrol maddesi, metni Flutter ve Firebase, React Native ve Supabase, Kotlin ve PocketBase için yeniden yazılmış",
   "media": {
     "slides": {
       "srcs": [
@@ -20,5 +21,14 @@
       "rendered_by": "python tools/checklist_frames.py"
     },
     "fade": 0.6
+  },
+  "media_tr": {
+    "slides": {
+      "srcs": [
+        "media/sources/checklist/tr/flutter-firebase.png",
+        "media/sources/checklist/tr/reactNative-supabase.png",
+        "media/sources/checklist/tr/kotlin-pocketbase.png"
+      ]
+    }
   }
 }
