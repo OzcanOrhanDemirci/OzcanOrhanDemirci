@@ -71,7 +71,9 @@ def main() -> None:
             page_file.write_text(html, encoding="utf-8")
             for device, ctx_args in {
                 "desktop": dict(viewport={"width": 1280, "height": 900}, device_scale_factor=1),
-                "phone": dict(**p.devices["iPhone 13"]),
+                # 2x, not the device's 3x: a long page at 3x passes Chrome's 16384 px limit
+                # and the bottom of the shot repeats the top.
+                "phone": {**p.devices["iPhone 13"], "device_scale_factor": 2},
             }.items():
                 ctx = browser.new_context(color_scheme=scheme, **ctx_args)
                 page = ctx.new_page()
