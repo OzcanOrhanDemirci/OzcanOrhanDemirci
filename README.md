@@ -16,7 +16,7 @@ I'm Özcan Orhan Demirci, a developer in İzmir. I build mobile apps, GPU graphi
 
 An AI recipe app that turns what is in your kitchen into step-by-step recipes, in Turkish and English. I designed, built and shipped all of it on my own.
 
-- A safety system for 37 allergens, 24 intolerances and 27 lifestyles, with baby food, pregnancy and breastfeeding modes
+- A safety system for 37 allergens, 28 intolerances and 23 lifestyles, with baby, child, pregnancy and breastfeeding modes
 - Every AI answer passes an ingredient pre-filter, prompt safety rules and a Turkish-aware allergen matcher, backed by 7,000+ automated tests
 - Flutter on iOS and Android; the AI backend on Cloudflare Workers with Firebase sign-in and rate limiting
 
@@ -124,7 +124,7 @@ Ben Özcan Orhan Demirci, İzmir'de yaşayan bir geliştiriciyim. Mobil uygulama
 
 Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce yapay zekâ destekli yemek uygulaması. Tamamını tek başıma tasarladım, geliştirdim ve yayınladım.
 
-- 37 alerjen, 24 intolerans ve 27 yaşam tarzını kapsayan güvenlik sistemi; bebek, hamilelik ve emzirme modları
+- 37 alerjen, 28 intolerans ve 23 yaşam tarzını kapsayan güvenlik sistemi; bebek, çocuk, hamilelik ve emzirme modları
 - Her yapay zekâ yanıtı malzeme ön filtresinden, istem güvenlik kurallarından ve Türkçe çekim eklerini tanıyan alerjen eşleştiriciden geçer; arkasında 7.000'den fazla otomatik test
 - iOS ve Android için Flutter; yapay zekâ altyapısı Cloudflare Workers üzerinde, Firebase kimlik doğrulaması ve istek sınırıyla
 
