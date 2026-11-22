@@ -1,0 +1,45 @@
+{
+  "videos": {
+    "en": "C:/dev/video/out/showreel/showreel-yatay-taslak2.mp4",
+    "tr": "C:/dev/video/out/showreel/showreel-yatay-tr-taslak2.mp4"
+  },
+  "segments": [
+    [
+      7.2,
+      8.6
+    ],
+    [
+      14.0,
+      15.4
+    ],
+    [
+      17.0,
+      18.2
+    ],
+    [
+      20.2,
+      21.6
+    ],
+    [
+      28.2,
+      29.8
+    ],
+    [
+      38.2,
+      39.8
+    ],
+    [
+      44.2,
+      45.6
+    ]
+  ],
+  "fps": 10,
+  "fade": 0.3,
+  "size": [
+    1200,
+    675
+  ],
+  "quality": 60,
+  "play": true,
+  "out": "poster-{lang}.webp"
+}

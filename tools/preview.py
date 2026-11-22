@@ -42,6 +42,8 @@ html,body{{margin:0;background:{page_bg}}}
 .box{{max-width:{box}px;margin:{margin};border:1px solid {border};border-radius:6px;background:{bg};}}
 .box-head{{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;color:{muted};padding:16px 24px 0}}
 .markdown-body{{padding:16px 24px 24px;}}
+/* the Primer utilities GitHub puts on an uploaded video's player (github-markdown-css has none) */
+.d-block{{display:block}} .width-fit{{max-width:100%!important}} .details-reset>summary{{list-style:none}}
 @media (max-width:600px){{.box{{margin:12px 8px}} .markdown-body{{padding:12px 16px 16px}}}}
 </style></head><body><div class="box"><div class="box-head">{head}</div>
 <article class="markdown-body">{body}</article></div>
@@ -68,7 +70,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     body = render_markdown()
     if OPEN:  # the collapsed Turkish section alone: open with the rest, the page passes Chrome's limit
-        body = body[body.index("<details>"):body.index("</details>") + len("</details>")]
+        body = body[body.index("<details>"):body.rindex("</details>") + len("</details>")]  # rindex: a video player is a details too
         body = body.replace("<details>", "<details open>")
     with sync_playwright() as p:
         browser = p.chromium.launch(channel="chrome")

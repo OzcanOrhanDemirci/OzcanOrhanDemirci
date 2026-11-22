@@ -10,12 +10,18 @@ the profile shows. It is meant to change often, so every part has one place.
 | Card order | `"order"` in each card file | `python tools/readme.py` |
 | Section numbers and the accent colour | `media/headings/headings.json` | `python tools/headers.py` |
 | Hero loop | `media/hero/` (its `recipe.md` says how it was rendered in pc_graphics) | see the recipe |
-| ChefOl phone | `media/chefol/` (its `recipe.json`) | `python tools/phone.py` |
-| Quiz picture under Live (projector and a player's phone) | `media/quiz/recipe.json`; sources in `bilgi-yarismasi-showcase/yerel` (local only, bot players) | `python tools/quiz_scene.py` |
+| ChefOl phone, English and Turkish | `media/chefol/` (`recipe.json`, `recipe-tr.json`; Turkish screens end in `_TR`) | `python tools/phone.py` |
+| Quiz picture under Live (projector and a player's phone) | `media/quiz/recipe.json` (English run, `yerel/en`) and `recipe-tr.json` (Turkish run, `yerel`); sources in `bilgi-yarismasi-showcase/yerel` (local only, bot players) | `python tools/quiz_scene.py` |
 | Mode_Code card's loop | the real terminal recording in `C:/dev/video/public/showreel/modecode/h` (its `SOURCE.md` says how it is made) | `python tools/cards.py modecode` |
 | stress_test card's frames | the shots in `tools/stress_frames.py` (rendered from the app's shaders on the GPU) | `python tools/stress_frames.py` then `python tools/cards.py stress` |
 | Mobil_App_Check_List card's stills | the stack pairs in `tools/checklist_frames.py` (shot from the PWA in Playwright) | `python tools/checklist_frames.py` then `python tools/cards.py checklist` |
-| Showreel | not on the page yet: `<!-- showreel:en -->` / `tr` comments mark where it goes as section 03 | add the section, renumber the ones below |
+| Showreel (section 03) | the player is Özcan's upload (720p, under the free plan's 10 MB, in closed issue #1, which must not be deleted); the moving poster above it is cut from the finals in `C:/dev/video/out/showreel/` by `media/showreel/recipe.json` | `python tools/reel.py` |
+
+Each language section shows an app in that language where the app speaks both (Özcan,
+11-22). A card's `"media_tr"` names the Turkish sources and builds `media/cards/<id>-tr.webp`,
+`"alt_tr"` is its Turkish alt text; a one-language app (Kontrol Merkezi) or a picture
+with no words (pc_graphics, stress_test) has one image for both. Mode_Code's Turkish
+loop is the same recording run with the program in Turkish (`h-tr/`).
 
 `tools/readme.py` rewrites only the blocks between `<!-- cards:en -->` and
 `<!-- /cards:en -->` (and the `tr` pair); everything else in `README.md` is left alone.

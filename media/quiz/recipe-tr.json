@@ -1,0 +1,43 @@
+{
+  "video": "C:/dev/bilgi-yarismasi-showcase/yerel/host-run.webm",
+  "phones": "C:/dev/bilgi-yarismasi-showcase/yerel/shots",
+  "segments": [
+    {
+      "from": 19.6,
+      "to": 24.6,
+      "phone": "telefon-5-cevap.png"
+    },
+    {
+      "from": 40.5,
+      "to": 44.0,
+      "phone": "telefon-7-dogru.png"
+    },
+    {
+      "from": 45.0,
+      "to": 49.0,
+      "phone": "telefon-7-dogru.png"
+    },
+    {
+      "from": 251.0,
+      "to": 257.6,
+      "phone": "telefon-10-final.png"
+    }
+  ],
+  "fps": 12,
+  "fade": 0.35,
+  "screen_width": 760,
+  "bezel": 9,
+  "phone_width": 236,
+  "status_bar": 0.05,
+  "gap": 22,
+  "frame": {
+    "body": "#1b1e23",
+    "rim": "#555c67",
+    "bezel": 8,
+    "radius": 34,
+    "camera": 8,
+    "buttons": true
+  },
+  "quality": 72,
+  "out": "scene-tr.webp"
+}

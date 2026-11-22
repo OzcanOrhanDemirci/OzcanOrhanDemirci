@@ -2,7 +2,7 @@
 
 <a href="#selected-work"><img src="media/hero/hero.webp" width="100%" alt="A lighthouse in fog on a lake at night, its beam turning: a loop rendered in my own GPU engine"></a>
 
-<p align="center"><sub>Rendered in my own GPU engine, pc_graphics: C++20, CUDA and OptiX, no engine underneath.</sub></p>
+<p align="center"><sub>Rendered in my own GPU engine, <a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a>: C++20, CUDA and OptiX, no engine underneath.</sub></p>
 
 <h3 align="center">I decide. AI builds. I verify.</h3>
 
@@ -47,9 +47,9 @@ A safety belt, modes and a quota guard for Claude Code. Every shell command and 
 
 <br>
 
-<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a></p>
 
-<p><b>pc_graphics</b><br>
+<p><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
 Art-directed scenes on my own spectral path tracer. Every ray of light is computed; nothing is painted on.<br>
 <sub>C++20 · CUDA · OptiX · open source</sub></p>
 
@@ -94,9 +94,16 @@ A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 framewo
 <sub>JavaScript · PWA · open source</sub></p>
 <!-- /cards:en -->
 
-<!-- showreel:en goes here as section 03 when the video is ready; renumber the sections below -->
+<!-- showreel:en: the player is GitHub's (Özcan's upload in issue #1); the moving poster plays where the player does not. The poster has no link: GitHub turns a link to an uploaded video into a second player. -->
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Showreel
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> How I work
+<img src="media/showreel/poster-en.webp" width="100%" alt="Moments from my showreel: a mirror labyrinth in pc_graphics, a reactor core from stress_test, the Kontrol Merkezi hall, Mode_Code blocking a force-push, four apps on phones, ChefOl">
+
+<sub>My projects in motion, one scene each, 58 seconds:</sub>
+
+https://github.com/user-attachments/assets/32a9bb71-ac27-4db9-bb8f-b173e35eaab9
+
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> How I work
 
 **I decide.** What gets built, why, and its architecture.<br>
 **AI builds.** Claude Code writes the code; Codex takes parts of it.<br>
@@ -104,7 +111,7 @@ A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 framewo
 
 <sub>Flutter · Dart · Kotlin · Jetpack Compose · C++ · CUDA · OptiX · Vulkan · TypeScript · Cloudflare Workers · Firebase · Arduino · Claude Code · Codex</sub>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Teaching
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Teaching
 
 - **GENÇ2030**, Ministry of Youth and Sports: one of 500 volunteer AI instructors selected across Türkiye. An AI conference for hundreds of high-school students in Menemen; instructor training for about 90 instructors at the Mersin camp.
 
@@ -114,7 +121,7 @@ A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 framewo
 
 - **Education**: Computer Programming, İstanbul University. Management Information Systems (in English), İzmir Bakırçay University, ongoing. Graduate of the Google AI and Technology Academy (T3 Foundation and Google).
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Contact
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n06-dark.png"><img src="media/headings/n06-light.png" height="22" alt=""></picture> Contact
 
 [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com) · [LinkedIn](https://www.linkedin.com/in/ozcan-orhan-demirci)
 
@@ -129,13 +136,13 @@ A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 framewo
 
 Ben Özcan Orhan Demirci, İzmir'de yaşayan bir geliştiriciyim. Mobil uygulamalar, GPU grafikleri ve elektronik projeler geliştiriyor, gençlere yapay zekâyla üretmeyi öğretiyorum. Mimar olarak çalışırım: neyin nasıl yapılacağına ben karar veririm, kodu yapay zekâ yazar, her sonucu cihazın kendisinde ben denetlerim. **İş arıyorum:** pozisyon ve projeler için [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
 
-<sub>En üstteki döngü kendi GPU motorumda çizildi: pc_graphics; C++20, CUDA ve OptiX, altında hazır bir motor yok.</sub>
+<sub>En üstteki döngü kendi GPU motorumda çizildi: <a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a>; C++20, CUDA ve OptiX, altında hazır bir motor yok.</sub>
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n01-dark.png"><img src="media/headings/n01-light.png" height="22" alt=""></picture> Canlıda
 
 ### ChefOl
 
-<p align="center"><img src="media/chefol/phone.webp" width="260" alt="ChefOl on a phone: the app's screens in turn"></p>
+<p align="center"><img src="media/chefol/phone-tr.webp" width="260" alt="Telefonda ChefOl, Türkçe: uygulamanın ekranları sırayla"></p>
 
 Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce yapay zekâ destekli yemek uygulaması. Tamamını tek başıma tasarladım, geliştirdim ve yayınladım.
 
@@ -151,7 +158,7 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 
 ### Bilgi Yarışması
 
-<img src="media/quiz/scene.webp" width="100%" alt="Bilgi Yarışması being played: the projector shows a question, the answers, the leaderboard and the podium, and beside it a player's phone shows the answer keys, a right answer and the final place">
+<img src="media/quiz/scene-tr.webp" width="100%" alt="Bilgi Yarışması oynanırken: projeksiyonda bir soru, cevaplar, sıralama ve kürsü; yanında bir oyuncunun telefonunda cevap tuşları, doğru cevap ve son sıra">
 
 İzmir'deki Alsancak Gençlik Merkezi'nde Kahoot! yerine kullanılmak üzere yaptığım canlı bilgi yarışması web uygulaması; yüzlerce, zamanla belki binlerce öğrenci oynayacak. Yarışma projeksiyonda akar, oyuncular uygulama indirmeden ve hesap açmadan QR kodla kendi telefonlarından katılır; hepsi Cloudflare'in ücretsiz katmanında çalışır.
 
@@ -170,9 +177,9 @@ Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve d
 
 <br>
 
-<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: bir denizaltının kontrol odası, Mağribi bir ayna labirenti, ormanda bir dere, gün batımında bir dağ, küçük bir adada su altı, ölçek yolculuğundan Dünya"></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: bir denizaltının kontrol odası, Mağribi bir ayna labirenti, ormanda bir dere, gün batımında bir dağ, küçük bir adada su altı, ölçek yolculuğundan Dünya"></a></p>
 
-<p><b>pc_graphics</b><br>
+<p><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
 Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışını hesaplanır, hiçbir şey boyanmaz.<br>
 <sub>C++20 · CUDA · OptiX · açık kaynak</sub></p>
 
@@ -217,9 +224,16 @@ Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 a
 <sub>JavaScript · PWA · açık kaynak</sub></p>
 <!-- /cards:tr -->
 
-<!-- showreel:tr goes here as section 03 when the video is ready; renumber the sections below -->
+<!-- showreel:tr -->
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Tanıtım videosu
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Nasıl çalışırım
+<img src="media/showreel/poster-tr.webp" width="100%" alt="Tanıtım videomdan anlar: pc_graphics'te bir ayna labirenti, stress_test'ten bir reaktör çekirdeği, Kontrol Merkezi'nin salonu, bir force-push'u durduran Mode_Code, telefonlarda dört uygulama, ChefOl">
+
+<sub>Projelerim hareket halinde, her birine bir sahne, 58 saniye:</sub>
+
+https://github.com/user-attachments/assets/3644fdd6-a4bd-4972-916c-98cbef2d52f1
+
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Nasıl çalışırım
 
 **Ben karar veririm.** Neyin, neden yapılacağına ve mimarisine.<br>
 **Yapay zekâ uygular.** Kodu Claude Code yazar; bir kısmını Codex üstlenir.<br>
@@ -227,7 +241,7 @@ Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 a
 
 <sub>Flutter · Dart · Kotlin · Jetpack Compose · C++ · CUDA · OptiX · Vulkan · TypeScript · Cloudflare Workers · Firebase · Arduino · Claude Code · Codex</sub>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Eğitmenlik
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Eğitmenlik
 
 - **GENÇ2030**, Gençlik ve Spor Bakanlığı: Türkiye genelinde seçilen 500 gönüllü yapay zekâ eğitmeninden biriyim. Menemen'de yüzlerce lise öğrencisine yapay zekâ konferansı; Mersin kampında 90'a yakın eğitmene eğitmen eğitimi.
 
@@ -237,7 +251,7 @@ Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 a
 
 - **Eğitim**: İstanbul Üniversitesi Bilgisayar Programcılığı. İzmir Bakırçay Üniversitesi Yönetim Bilişim Sistemleri (İngilizce), devam ediyor. Yapay Zekâ ve Teknoloji Akademisi mezunu (T3 Vakfı ve Google).
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> İletişim
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n06-dark.png"><img src="media/headings/n06-light.png" height="22" alt=""></picture> İletişim
 
 [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com) · [LinkedIn](https://www.linkedin.com/in/ozcan-orhan-demirci)
 

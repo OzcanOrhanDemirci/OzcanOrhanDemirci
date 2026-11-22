@@ -1,11 +1,27 @@
 {
-  "video": "C:/dev/bilgi-yarismasi-showcase/yerel/host-run.webm",
-  "phones": "C:/dev/bilgi-yarismasi-showcase/yerel/shots",
+  "video": "C:/dev/bilgi-yarismasi-showcase/yerel/en/host-run.webm",
+  "phones": "C:/dev/bilgi-yarismasi-showcase/yerel/en/shots",
   "segments": [
-    {"from": 19.6, "to": 24.6, "phone": "telefon-5-cevap.png"},
-    {"from": 40.5, "to": 44.0, "phone": "telefon-7-dogru.png"},
-    {"from": 45.0, "to": 49.0, "phone": "telefon-7-dogru.png"},
-    {"from": 251.0, "to": 257.6, "phone": "telefon-10-final.png"}
+    {
+      "from": 19.95,
+      "to": 24.95,
+      "phone": "telefon-5-cevap.png"
+    },
+    {
+      "from": 40.7,
+      "to": 44.2,
+      "phone": "telefon-7-dogru.png"
+    },
+    {
+      "from": 45.2,
+      "to": 49.2,
+      "phone": "telefon-7-dogru.png"
+    },
+    {
+      "from": 255.7,
+      "to": 262.3,
+      "phone": "telefon-10-final.png"
+    }
   ],
   "fps": 12,
   "fade": 0.35,
