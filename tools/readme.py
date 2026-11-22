@@ -4,7 +4,9 @@
 
 README.md is written by hand except between the markers
 <!-- cards:en --> ... <!-- /cards:en --> and <!-- cards:tr --> ... <!-- /cards:tr -->,
-which this script rewrites: two cards per row, in the order the files give.
+which this script rewrites: two cards per row, in the order the files give. A card with
+"feature": true stands alone across the full width (Mode_Code, the one a technical reader
+should stop at); its text may run longer.
 """
 import json
 import pathlib
@@ -13,8 +15,8 @@ import re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
-def cell(c: dict, lang: str) -> str:
-    return (f'<td width="50%" valign="top">\n'
+def cell(c: dict, lang: str, width: str = "50%") -> str:
+    return (f'<td width="{width}" valign="top">\n'
             f'<a href="{c["link"]}"><img src="media/cards/{c["id"]}.webp" width="100%" alt="{c["alt"]}"></a>\n'
             f'<br><b><a href="{c["link"]}">{c["name"]}</a></b><br>\n'
             f'{c[lang]}<br>\n'
@@ -23,10 +25,17 @@ def cell(c: dict, lang: str) -> str:
 
 
 def block(cards, lang: str) -> str:
-    rows = []
-    for i in range(0, len(cards), 2):
-        pair = "\n".join(cell(c, lang) for c in cards[i:i + 2])
-        rows.append(f"<table><tr>\n{pair}\n</tr></table>")
+    rows, pair = [], []
+    for c in cards:
+        if c.get("feature"):
+            rows.append(f"<table><tr>\n{cell(c, lang, '100%')}\n</tr></table>")
+            continue
+        pair.append(c)
+        if len(pair) == 2:
+            rows.append("<table><tr>\n" + "\n".join(cell(x, lang) for x in pair) + "\n</tr></table>")
+            pair = []
+    if pair:
+        rows.append("<table><tr>\n" + "\n".join(cell(x, lang) for x in pair) + "\n</tr></table>")
     return "\n\n".join(rows)
 
 

@@ -10,10 +10,12 @@ says where the picture comes from:
   "video":  {"src": "...mp4", "segments": [[start_s, end_s], ...], "fps": 15}
             segments are joined with short dissolves, the loop closes with one too
   "frames": {"glob": ".../*.png", "fps": 15, "step": 1}
+            or "globs": [...]: several clips joined with dissolves, looping like "video"
   "still":  {"src": "...png|jpg", "contain": "#0b0f14"}   contain: fit inside on that colour
   "slides": {"srcs": [...], "hold": 1.6, "fps": 15}         stills in turn, dissolving
   "phones": {"srcs": [...], "bg": "#101418"}   portrait screens side by side
-  optional for all: "crop": [x0, y0, x1, y1] as fractions of the source, "fade": 0.4
+  optional for all: "crop": [x0, y0, x1, y1] as fractions of the source, "fade": 0.4,
+                    "size": [1600, 900] for the full-width feature card
 
 The sources are outside this repository (in the projects themselves); the recipe keeps
 the path, so a card can be rebuilt or re-cut later.
@@ -104,10 +106,13 @@ def dissolve(parts, n):
 
 
 def build(cid: str) -> None:
+    global W, H, MASK
     r = json.loads((RECIPES / f"{cid}.json").read_text(encoding="utf-8"))["media"]
     if not r:
         print(f"{cid}: no media recipe yet")
         return
+    W, H = r.get("size", (800, 450))
+    MASK = None
     crop = r.get("crop")
     if "video" in r:
         v = r["video"]
@@ -117,9 +122,9 @@ def build(cid: str) -> None:
     elif "frames" in r:
         v = r["frames"]
         fps = v.get("fps", 15)
-        files = sorted(glob.glob(v["glob"]))[:: v.get("step", 1)]
-        seq = [fit(Image.open(f), crop) for f in files]
-        fps = fps
+        globs = v["globs"] if "globs" in v else [v["glob"]]
+        parts = [[fit(Image.open(f), crop) for f in sorted(glob.glob(g))[:: v.get("step", 1)]] for g in globs]
+        seq = dissolve(parts, round(r.get("fade", 0.5) * fps)) if len(parts) > 1 else parts[0]
     elif "slides" in r:
         v = r["slides"]
         fps = v.get("fps", 15)
@@ -131,7 +136,7 @@ def build(cid: str) -> None:
         seq, fps = [phones(r["phones"])], 0
     else:
         s = r["still"]
-        im = Image.open(s["src"])
+        im = Image.open(ROOT / s["src"])
         seq, fps = [contain(im, s["contain"]) if s.get("contain") else fit(im, crop)], 0
     frames = [finish(f) for f in seq]
     OUT.mkdir(parents=True, exist_ok=True)

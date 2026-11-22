@@ -1,21 +1,17 @@
 {
-  "order": 5,
+  "order": 0,
+  "feature": true,
   "name": "Mode_Code",
   "link": "https://github.com/OzcanOrhanDemirci/Mode_Code",
-  "en": "A local companion for Claude Code: a safety belt, modes, a quota guard and a control center in the terminal.",
-  "tr": "Claude Code için yerel bir yardımcı: emniyet kemeri, modlar, kota koruması ve terminalde bir kontrol merkezi.",
-  "tags_en": "TypeScript · open source",
-  "tags_tr": "TypeScript · açık kaynak",
-  "alt": "Mode_Code: its social card, the plugin's name and the control center in the terminal",
+  "en": "A safety belt, modes and a quota guard for Claude Code. Every shell command and file write is parsed the way the shell and git will read it, then decided against 54 rules before it runs. Recoverable steps are snapshotted instead of asked about, and a fail-closed hook sits beneath it all. Local, no runtime dependencies, no telemetry.",
+  "tr": "Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır. Geri alınabilir adımlar sorulmak yerine önce saklanır; hepsinin altında, hata anında kapalı kalan bir hook durur. Yerel, çalışma zamanı bağımlılığı yok, telemetri yok.",
+  "tags_en": "TypeScript · Claude Code plugin · open source",
+  "tags_tr": "TypeScript · Claude Code eklentisi · açık kaynak",
+  "alt": "Mode_Code's control center in the terminal: the safety belt's rules, each set to block or ask, with the selected rule's detail",
   "media": {
     "still": {
-      "src": "C:/dev/Mode_Code/docs/images/social-preview.png"
+      "src": "media/sources/modecode/control-center-rules.png"
     },
-    "crop": [
-      0,
-      0,
-      0.889,
-      1
-    ]
+    "size": [1600, 900]
   }
 }

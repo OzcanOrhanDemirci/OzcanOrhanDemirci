@@ -28,6 +28,15 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 
 <!-- cards:en -->
 <table><tr>
+<td width="100%" valign="top">
+<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: the safety belt's rules, each set to block or ask, with the selected rule's detail"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
+A safety belt, modes and a quota guard for Claude Code. Every shell command and file write is parsed the way the shell and git will read it, then decided against 54 rules before it runs. Recoverable steps are snapshotted instead of asked about, and a fail-closed hook sits beneath it all. Local, no runtime dependencies, no telemetry.<br>
+<sub>TypeScript · Claude Code plugin · open source</sub>
+</td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
@@ -44,25 +53,10 @@ My PC's fans and RGB lighting in one Windows app, staged as a 3D hall you walk t
 
 <table><tr>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: its cinematic Vulkan scenes (still until the loop is rendered)"></a>
+<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
 Finds the most power a phone can really draw: AArch64 assembly CPU loads, Vulkan GPU burners and cinematic scenes, a PDF report.<br>
 <sub>Kotlin · Vulkan · AArch64</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code: its social card, the plugin's name and the control center in the terminal"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
-A local companion for Claude Code: a safety belt, modes, a quota guard and a control center in the terminal.<br>
-<sub>TypeScript · open source</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
-A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
-<sub>JavaScript · PWA · open source</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
@@ -78,6 +72,12 @@ Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Tü
 <br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 An Android weather app where the backdrop is the data. Written at a youth camp.<br>
 <sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
+A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
+<sub>JavaScript · PWA · open source</sub>
 </td>
 </tr></table>
 <!-- /cards:en -->
@@ -130,6 +130,15 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 
 <!-- cards:tr -->
 <table><tr>
+<td width="100%" valign="top">
+<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: the safety belt's rules, each set to block or ask, with the selected rule's detail"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
+Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır. Geri alınabilir adımlar sorulmak yerine önce saklanır; hepsinin altında, hata anında kapalı kalan bir hook durur. Yerel, çalışma zamanı bağımlılığı yok, telemetri yok.<br>
+<sub>TypeScript · Claude Code eklentisi · açık kaynak</sub>
+</td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
@@ -146,25 +155,10 @@ Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, i�
 
 <table><tr>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: its cinematic Vulkan scenes (still until the loop is rendered)"></a>
+<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
 Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly işlemci yükleri, Vulkan GPU yakıcıları ve sinematik sahneler, PDF rapor.<br>
 <sub>Kotlin · Vulkan · AArch64</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code: its social card, the plugin's name and the control center in the terminal"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
-Claude Code için yerel bir yardımcı: emniyet kemeri, modlar, kota koruması ve terminalde bir kontrol merkezi.<br>
-<sub>TypeScript · açık kaynak</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
-Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>
-<sub>JavaScript · PWA · açık kaynak</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
@@ -180,6 +174,12 @@ Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki d
 <br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.<br>
 <sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
+Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>
+<sub>JavaScript · PWA · açık kaynak</sub>
 </td>
 </tr></table>
 <!-- /cards:tr -->
@@ -208,3 +208,7 @@ SHOWREEL_TR
 [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com) · [LinkedIn](https://www.linkedin.com/in/ozcan-orhan-demirci)
 
 </details>
+
+<br>
+
+<sub>App Store and the Apple logo are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC. Other names and logos belong to their owners.</sub>
