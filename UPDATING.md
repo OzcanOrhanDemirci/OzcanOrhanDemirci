@@ -29,7 +29,7 @@ loop is the same recording run with the program in Turkish (`h-tr/`).
 Selected work is one project per row (picture across the column, name, a sentence or
 two, tech line); tables of pairs became thin columns on a phone. `"light": true` gives a
 low-key card a smaller picture. A card whose repository is not public yet has no
-`"link"` (pc_graphics keeps it as `"link_when_public"`), so nothing links to a 404.
+`"link"` (keep it as `"link_when_public"` until then), so nothing links to a 404.
 
 A card's picture is built from sources that live in the projects themselves (paths in
 the card file), so a new screenshot or a new loop is a matter of pointing the card at it
