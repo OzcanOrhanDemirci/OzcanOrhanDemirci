@@ -2,7 +2,7 @@
 
 <a href="#selected-work"><img src="media/hero/hero.webp" width="100%" alt="A lighthouse in fog on a lake at night, its beam turning: a loop rendered in my own GPU engine"></a>
 
-<p align="center"><sub>Rendered in my own GPU engine, <a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a>: C++20, CUDA and OptiX, no engine underneath.</sub></p>
+<p align="center"><sub>Rendered in my own GPU engine, pc_graphics: C++20, CUDA and OptiX, no engine underneath.</sub></p>
 
 <h3 align="center">I decide. AI builds. I verify.</h3>
 
@@ -10,9 +10,9 @@ I'm Özcan Orhan Demirci, a developer in İzmir. I build mobile apps, GPU graphi
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n01-dark.png"><img src="media/headings/n01-light.png" height="22" alt=""></picture> Live
 
-<img src="media/chefol/phone.webp" align="right" width="34%" alt="ChefOl on a phone: the app's screens in turn">
-
 ### ChefOl
+
+<p align="center"><img src="media/chefol/phone.webp" width="260" alt="ChefOl on a phone: the app's screens in turn"></p>
 
 An AI recipe app that turns what is in your kitchen into step-by-step recipes, in Turkish and English. I designed, built and shipped all of it on my own.
 
@@ -24,11 +24,13 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 
 <sub>[chefolapp.com](https://chefolapp.com) · [How it is built](https://github.com/OzcanOrhanDemirci/chefol-showcase)</sub>
 
-<br clear="right">
+<br>
 
 ### Bilgi Yarışması
 
-A live quiz web app I built for Alsancak Youth Centre in İzmir, to take the place of Kahoot! there on Cloudflare's free tier. The quiz runs on the projector; players join from their own phones with a QR code, no app and no account.
+<img src="media/quiz/scene.webp" width="100%" alt="Bilgi Yarışması being played: the projector shows a question, the answers, the leaderboard and the podium, and beside it a player's phone shows the answer keys, a right answer and the final place">
+
+A live quiz web app I built for Alsancak Youth Centre in İzmir to take the place of Kahoot! there; hundreds of students, in time perhaps thousands, will play it. The quiz runs on the projector, players join from their own phones with a QR code, no app and no account, and all of it runs on Cloudflare's free tier.
 
 - One Durable Object per game keeps the clock and the scores; each answer's time is corrected for the phone's own measured latency, and 400 bot players on simulated mobile networks finished a game on Cloudflare
 
@@ -37,66 +39,64 @@ A live quiz web app I built for Alsancak Youth Centre in İzmir, to take the pla
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Selected work
 
 <!-- cards:en -->
-<table><tr>
-<td width="100%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: the safety belt's rules, each set to block or ask, with the selected rule's detail"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
-A safety belt, modes and a quota guard for Claude Code. Every shell command and file write is parsed the way the shell and git will read it, then decided against 54 rules before it runs. Recoverable steps are snapshotted instead of asked about, and a fail-closed hook sits beneath it all. Local, no runtime dependencies, no telemetry.<br>
-<sub>TypeScript · Claude Code plugin · open source</sub>
-</td>
-</tr></table>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens"></a></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
+<p><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
+A safety belt, modes and a quota guard for Claude Code. Every shell command and file write is parsed the way the shell and git will read it, then decided against 54 rules before it runs.<br>
+<sub>TypeScript · Claude Code plugin · open source</sub></p>
+
+<br>
+
+<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></p>
+
+<p><b>pc_graphics</b><br>
 Art-directed scenes on my own spectral path tracer. Every ray of light is computed; nothing is painted on.<br>
-<sub>C++20 · CUDA · OptiX · open source</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
+<sub>C++20 · CUDA · OptiX · open source</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 My PC's fans and RGB lighting in one Windows app, staged as a 3D hall you walk through.<br>
-<sub>C# · WebGL2 · C++ · OptiX · open source</sub>
-</td>
-</tr></table>
+<sub>C# · WebGL2 · C++ · OptiX · open source</sub></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
 Finds the most power a phone can really draw: AArch64 assembly CPU loads, Vulkan GPU burners and cinematic scenes, a PDF report.<br>
-<sub>Kotlin · Vulkan · AArch64</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
-Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Türkiye. My graduation project.<br>
-<sub>Flutter · Dart · open source</sub>
-</td>
-</tr></table>
+<sub>Kotlin · Vulkan · AArch64</sub></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
+Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Türkiye. My graduation project.<br>
+<sub>Flutter · Dart · open source</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 An Android weather app where the backdrop is the data. Written at a youth camp.<br>
-<sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
+<sub>Kotlin · Jetpack Compose · Open-Meteo</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="60%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
-<sub>JavaScript · PWA · open source</sub>
-</td>
-</tr></table>
+<sub>JavaScript · PWA · open source</sub></p>
 <!-- /cards:en -->
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Showreel
+<!-- showreel:en goes here as section 03 when the video is ready; renumber the sections below -->
 
-SHOWREEL_EN
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> How I work
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> How I work
 
 **I decide.** What gets built, why, and its architecture.<br>
 **AI builds.** Claude Code writes the code; Codex takes parts of it.<br>
@@ -104,14 +104,17 @@ SHOWREEL_EN
 
 <sub>Flutter · Dart · Kotlin · Jetpack Compose · C++ · CUDA · OptiX · Vulkan · TypeScript · Cloudflare Workers · Firebase · Arduino · Claude Code · Codex</sub>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Teaching
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Teaching
 
 - **GENÇ2030**, Ministry of Youth and Sports: one of 500 volunteer AI instructors selected across Türkiye. An AI conference for hundreds of high-school students in Menemen; instructor training for about 90 instructors at the Mersin camp.
+
 - **Alsancak Youth Centre R&D**: taught a 12-week AI-assisted mobile development course, where my students built 8 apps. This term I teach its robotics and 3D modelling course.
+
 - **DENEYAP**: project advisor to 4 teams and 16 students preparing for TEKNOFEST and TÜBİTAK; jury member in the 2026 student selection, 38 candidates.
+
 - **Education**: Computer Programming, İstanbul University. Management Information Systems (in English), İzmir Bakırçay University, ongoing. Graduate of the Google AI and Technology Academy (T3 Foundation and Google).
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n06-dark.png"><img src="media/headings/n06-light.png" height="22" alt=""></picture> Contact
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Contact
 
 [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com) · [LinkedIn](https://www.linkedin.com/in/ozcan-orhan-demirci)
 
@@ -132,85 +135,91 @@ Ben Özcan Orhan Demirci, İzmir'de yaşayan bir geliştiriciyim. Mobil uygulama
 
 ### ChefOl
 
+<p align="center"><img src="media/chefol/phone.webp" width="260" alt="ChefOl on a phone: the app's screens in turn"></p>
+
 Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce yapay zekâ destekli yemek uygulaması. Tamamını tek başıma tasarladım, geliştirdim ve yayınladım.
 
 - 37 alerjen, 28 intolerans ve 23 yaşam tarzını kapsayan güvenlik sistemi; bebek, çocuk, hamilelik ve emzirme modları
 - Her yapay zekâ yanıtı malzeme ön filtresinden, istem güvenlik kurallarından ve Türkçe çekim eklerini tanıyan alerjen eşleştiriciden geçer; arkasında 7.000'den fazla otomatik test
 - iOS ve Android için Flutter; yapay zekâ altyapısı Cloudflare Workers üzerinde, Firebase kimlik doğrulaması ve istek sınırıyla
 
-[App Store](https://apps.apple.com/app/id6789093361) · [Google Play](https://play.google.com/store/apps/details?id=com.chefol) · [chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol-showcase)
+<a href="https://apps.apple.com/app/id6789093361"><img src="media/badges/app-store.svg" height="40" alt="Download on the App Store"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.chefol"><img src="media/badges/google-play.png" height="40" alt="Get it on Google Play"></a>
+
+<sub>[chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol-showcase)</sub>
+
+<br>
 
 ### Bilgi Yarışması
 
-İzmir'deki Alsancak Gençlik Merkezi için yaptığım canlı bilgi yarışması web uygulaması; merkezde Kahoot! yerine, Cloudflare'in ücretsiz katmanında çalışmak üzere. Yarışma projeksiyonda akar; oyuncular QR kodla kendi telefonlarından katılır, uygulama indirmeden ve hesap açmadan.
+<img src="media/quiz/scene.webp" width="100%" alt="Bilgi Yarışması being played: the projector shows a question, the answers, the leaderboard and the podium, and beside it a player's phone shows the answer keys, a right answer and the final place">
+
+İzmir'deki Alsancak Gençlik Merkezi'nde Kahoot! yerine kullanılmak üzere yaptığım canlı bilgi yarışması web uygulaması; yüzlerce, zamanla belki binlerce öğrenci oynayacak. Yarışma projeksiyonda akar, oyuncular uygulama indirmeden ve hesap açmadan QR kodla kendi telefonlarından katılır; hepsi Cloudflare'in ücretsiz katmanında çalışır.
 
 - Her oyunu tek bir Durable Object yönetir, saat ve puanlar onda durur; her cevabın süresi o telefonun ölçülen gecikmesine göre düzeltilir ve benzetilmiş mobil ağlarda 400 bot oyuncu Cloudflare'de bir oyunu baştan sona oynadı
 
-[Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/bilgi-yarismasi-showcase)
+<sub>[Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/bilgi-yarismasi-showcase)</sub>
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Seçili işler
 
 <!-- cards:tr -->
-<table><tr>
-<td width="100%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: the safety belt's rules, each set to block or ask, with the selected rule's detail"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
-Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır. Geri alınabilir adımlar sorulmak yerine önce saklanır; hepsinin altında, hata anında kapalı kalan bir hook durur. Yerel, çalışma zamanı bağımlılığı yok, telemetri yok.<br>
-<sub>TypeScript · Claude Code eklentisi · açık kaynak</sub>
-</td>
-</tr></table>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens"></a></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
+<p><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
+Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır.<br>
+<sub>TypeScript · Claude Code eklentisi · açık kaynak</sub></p>
+
+<br>
+
+<p><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></p>
+
+<p><b>pc_graphics</b><br>
 Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışını hesaplanır, hiçbir şey boyanmaz.<br>
-<sub>C++20 · CUDA · OptiX · açık kaynak</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
+<sub>C++20 · CUDA · OptiX · açık kaynak</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, içinde yürünen 3B bir salon olarak.<br>
-<sub>C# · WebGL2 · C++ · OptiX · açık kaynak</sub>
-</td>
-</tr></table>
+<sub>C# · WebGL2 · C++ · OptiX · açık kaynak</sub></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/stress_test"><img src="media/cards/stress.webp" width="100%" alt="stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/stress_test">stress_test</a></b><br>
 Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly işlemci yükleri, Vulkan GPU yakıcıları ve sinematik sahneler, PDF rapor.<br>
-<sub>Kotlin · Vulkan · AArch64</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
-Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki dilli rehber. Bitirme projem.<br>
-<sub>Flutter · Dart · açık kaynak</sub>
-</td>
-</tr></table>
+<sub>Kotlin · Vulkan · AArch64</sub></p>
 
-<table><tr>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
+Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki dilli rehber. Bitirme projem.<br>
+<sub>Flutter · Dart · açık kaynak</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.<br>
-<sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
+<sub>Kotlin · Jetpack Compose · Open-Meteo</sub></p>
+
+<br>
+
+<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="60%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a></p>
+
+<p><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>
-<sub>JavaScript · PWA · açık kaynak</sub>
-</td>
-</tr></table>
+<sub>JavaScript · PWA · açık kaynak</sub></p>
 <!-- /cards:tr -->
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Showreel
+<!-- showreel:tr goes here as section 03 when the video is ready; renumber the sections below -->
 
-SHOWREEL_TR
-
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Nasıl çalışırım
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n03-dark.png"><img src="media/headings/n03-light.png" height="22" alt=""></picture> Nasıl çalışırım
 
 **Ben karar veririm.** Neyin, neden yapılacağına ve mimarisine.<br>
 **Yapay zekâ uygular.** Kodu Claude Code yazar; bir kısmını Codex üstlenir.<br>
@@ -218,14 +227,17 @@ SHOWREEL_TR
 
 <sub>Flutter · Dart · Kotlin · Jetpack Compose · C++ · CUDA · OptiX · Vulkan · TypeScript · Cloudflare Workers · Firebase · Arduino · Claude Code · Codex</sub>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> Eğitmenlik
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Eğitmenlik
 
 - **GENÇ2030**, Gençlik ve Spor Bakanlığı: Türkiye genelinde seçilen 500 gönüllü yapay zekâ eğitmeninden biriyim. Menemen'de yüzlerce lise öğrencisine yapay zekâ konferansı; Mersin kampında 90'a yakın eğitmene eğitmen eğitimi.
+
 - **Alsancak Gençlik Merkezi AR-GE**: 12 haftalık Yapay Zekâ Destekli Mobil Uygulama Geliştirme Kursu'nu verdim, öğrencilerim 8 uygulama geliştirdi. Bu dönem robotik ve 3D modelleme kursunun eğitmeniyim.
+
 - **DENEYAP**: TEKNOFEST ve TÜBİTAK'a hazırlanan 4 takıma, 16 öğrenciye proje danışmanlığı; 2026 Öğrenci Seçme Süreci'nde jüri üyesi, 38 aday.
+
 - **Eğitim**: İstanbul Üniversitesi Bilgisayar Programcılığı. İzmir Bakırçay Üniversitesi Yönetim Bilişim Sistemleri (İngilizce), devam ediyor. Yapay Zekâ ve Teknoloji Akademisi mezunu (T3 Vakfı ve Google).
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n06-dark.png"><img src="media/headings/n06-light.png" height="22" alt=""></picture> İletişim
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n05-dark.png"><img src="media/headings/n05-light.png" height="22" alt=""></picture> İletişim
 
 [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com) · [LinkedIn](https://www.linkedin.com/in/ozcan-orhan-demirci)
 

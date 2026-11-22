@@ -1,6 +1,8 @@
 """Render README.md the way GitHub does and screenshot it: desktop and phone, light and dark.
 
-    python tools/preview.py [out_dir] [--repo DIR OWNER/NAME]
+    python tools/preview.py [out_dir] [--repo DIR OWNER/NAME] [--open]
+
+--open shoots only the Turkish section, opened.
 
 With --repo it renders that repository's README.md instead (a showcase repository, say),
 resolving its relative images against DIR.
@@ -24,6 +26,9 @@ if "--repo" in ARGS:
     i = ARGS.index("--repo")
     ROOT, REPO = pathlib.Path(ARGS[i + 1]).resolve(), ARGS[i + 2]
     del ARGS[i:i + 3]
+OPEN = "--open" in ARGS
+if OPEN:
+    ARGS.remove("--open")
 CSS_DIR = pathlib.Path("C:/Temp/vitrin/preview/node_modules/github-markdown-css")
 OUT = pathlib.Path(ARGS[0] if ARGS else "C:/Temp/vitrin/shots")
 
@@ -62,6 +67,9 @@ def render_markdown() -> str:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     body = render_markdown()
+    if OPEN:  # the collapsed Turkish section alone: open with the rest, the page passes Chrome's limit
+        body = body[body.index("<details>"):body.index("</details>") + len("</details>")]
+        body = body.replace("<details>", "<details open>")
     with sync_playwright() as p:
         browser = p.chromium.launch(channel="chrome")
         for scheme, t in THEMES.items():

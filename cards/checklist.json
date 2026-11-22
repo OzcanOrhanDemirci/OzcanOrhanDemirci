@@ -1,5 +1,6 @@
 {
   "order": 6,
+  "light": true,
   "name": "Mobil_App_Check_List",
   "link": "https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List",
   "en": "A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.",
