@@ -22,7 +22,7 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 
 <a href="https://apps.apple.com/app/id6789093361"><img src="media/badges/app-store.svg" height="40" alt="Download on the App Store"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.chefol"><img src="media/badges/google-play.png" height="40" alt="Get it on Google Play"></a>
 
-<sub>[chefolapp.com](https://chefolapp.com)</sub>
+<sub>[chefolapp.com](https://chefolapp.com) · [How it is built](https://github.com/OzcanOrhanDemirci/chefol-showcase)</sub>
 
 <br clear="right">
 
@@ -128,7 +128,7 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 - Her yapay zekâ yanıtı malzeme ön filtresinden, istem güvenlik kurallarından ve Türkçe çekim eklerini tanıyan alerjen eşleştiriciden geçer; arkasında 7.000'den fazla otomatik test
 - iOS ve Android için Flutter; yapay zekâ altyapısı Cloudflare Workers üzerinde, Firebase kimlik doğrulaması ve istek sınırıyla
 
-[App Store](https://apps.apple.com/app/id6789093361) · [Google Play](https://play.google.com/store/apps/details?id=com.chefol) · [chefolapp.com](https://chefolapp.com)
+[App Store](https://apps.apple.com/app/id6789093361) · [Google Play](https://play.google.com/store/apps/details?id=com.chefol) · [chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol-showcase)
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Seçili işler
 
