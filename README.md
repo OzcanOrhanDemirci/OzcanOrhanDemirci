@@ -26,6 +26,14 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 
 <br clear="right">
 
+### Bilgi Yarışması
+
+A live quiz web app I built for Alsancak Youth Centre in İzmir, to take the place of Kahoot! there on Cloudflare's free tier. The quiz runs on the projector; players join from their own phones with a QR code, no app and no account.
+
+- One Durable Object per game keeps the clock and the scores; each answer's time is corrected for the phone's own measured latency, and 400 bot players on simulated mobile networks finished a game on Cloudflare
+
+<sub>[How it is built](https://github.com/OzcanOrhanDemirci/bilgi-yarismasi-showcase)</sub>
+
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Selected work
 
 <!-- cards:en -->
@@ -120,7 +128,9 @@ Ben Özcan Orhan Demirci, İzmir'de yaşayan bir geliştiriciyim. Mobil uygulama
 
 <sub>En üstteki döngü kendi GPU motorumda çizildi: pc_graphics; C++20, CUDA ve OptiX, altında hazır bir motor yok.</sub>
 
-## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n01-dark.png"><img src="media/headings/n01-light.png" height="22" alt=""></picture> Canlıda: ChefOl
+## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n01-dark.png"><img src="media/headings/n01-light.png" height="22" alt=""></picture> Canlıda
+
+### ChefOl
 
 Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce yapay zekâ destekli yemek uygulaması. Tamamını tek başıma tasarladım, geliştirdim ve yayınladım.
 
@@ -129,6 +139,14 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 - iOS ve Android için Flutter; yapay zekâ altyapısı Cloudflare Workers üzerinde, Firebase kimlik doğrulaması ve istek sınırıyla
 
 [App Store](https://apps.apple.com/app/id6789093361) · [Google Play](https://play.google.com/store/apps/details?id=com.chefol) · [chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol-showcase)
+
+### Bilgi Yarışması
+
+İzmir'deki Alsancak Gençlik Merkezi için yaptığım canlı bilgi yarışması web uygulaması; merkezde Kahoot! yerine, Cloudflare'in ücretsiz katmanında çalışmak üzere. Yarışma projeksiyonda akar; oyuncular QR kodla kendi telefonlarından katılır, uygulama indirmeden ve hesap açmadan.
+
+- Her oyunu tek bir Durable Object yönetir, saat ve puanlar onda durur; her cevabın süresi o telefonun ölçülen gecikmesine göre düzeltilir ve benzetilmiş mobil ağlarda 400 bot oyuncu Cloudflare'de bir oyunu baştan sona oynadı
+
+[Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/bilgi-yarismasi-showcase)
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Seçili işler
 
@@ -215,4 +233,4 @@ SHOWREEL_TR
 
 <br>
 
-<sub>App Store and the Apple logo are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC. Other names and logos belong to their owners.</sub>
+<sub>App Store and the Apple logo are trademarks of Apple Inc. Google Play and the Google Play logo are trademarks of Google LLC. Kahoot! is a trademark of Kahoot! ASA; my quiz app is not affiliated with or endorsed by it. Other names and logos belong to their owners.</sub>
