@@ -22,7 +22,7 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 
 <a href="https://apps.apple.com/app/id6789093361"><img src="media/badges/app-store.svg" height="40" alt="Download on the App Store"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.chefol"><img src="media/badges/google-play.png" height="40" alt="Get it on Google Play"></a>
 
-<sub>[chefolapp.com](https://chefolapp.com) · [How it is built](https://github.com/OzcanOrhanDemirci/chefol-showcase)</sub>
+<sub>[chefolapp.com](https://chefolapp.com) · [How it is built](https://github.com/OzcanOrhanDemirci/chefol)</sub>
 
 <br>
 
@@ -152,7 +152,7 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 
 <a href="https://apps.apple.com/app/id6789093361"><img src="media/badges/app-store.svg" height="40" alt="Download on the App Store"></a>&nbsp;<a href="https://play.google.com/store/apps/details?id=com.chefol"><img src="media/badges/google-play.png" height="40" alt="Get it on Google Play"></a>
 
-<sub>[chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol-showcase)</sub>
+<sub>[chefolapp.com](https://chefolapp.com) · [Nasıl yapıldı](https://github.com/OzcanOrhanDemirci/chefol)</sub>
 
 <br>
 
