@@ -1,10 +1,12 @@
 <!-- Profile README of Özcan Orhan Demirci. Media and how to rebuild it: see UPDATING.md. -->
 
-<a href="#selected-work"><img src="media/hero/hero.webp" width="100%" alt="Özcan Orhan Demirci. A loop rendered in my own GPU engine."></a>
+<a href="#selected-work"><img src="media/hero/hero.webp" width="100%" alt="A lighthouse in fog on a lake at night, its beam turning: a loop rendered in my own GPU engine"></a>
 
 <p align="center"><sub>Rendered in my own GPU engine, <a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a>: C++20, CUDA and OptiX, no engine underneath.</sub></p>
 
-I'm a developer in İzmir. I build mobile apps, GPU graphics and electronics, and I teach young people to build with AI. I work as the architect: I decide what gets built and how, AI writes the code, and I check every result on the device itself. **Open to work:** roles and projects, write to [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
+<h3 align="center">I decide. AI builds. I verify.</h3>
+
+I'm Özcan Orhan Demirci, a developer in İzmir. I build mobile apps, GPU graphics and electronics, and I teach young people to build with AI. I work as the architect: I decide what gets built and how, AI writes the code, and I check every result on the device itself. **Open to work:** roles and projects, write to [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n01-dark.png"><img src="media/headings/n01-light.png" height="22" alt=""></picture> Live
 
@@ -112,7 +114,9 @@ SHOWREEL_EN
 
 <br>
 
-İzmir'de yaşayan bir geliştiriciyim. Mobil uygulamalar, GPU grafikleri ve elektronik projeler geliştiriyor, gençlere yapay zekâyla üretmeyi öğretiyorum. Mimar olarak çalışırım: neyin nasıl yapılacağına ben karar veririm, kodu yapay zekâ yazar, her sonucu cihazın kendisinde ben denetlerim. **İş arıyorum:** pozisyon ve projeler için [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
+<h3 align="center">Ben karar veririm, AI uygular, ben denetlerim.</h3>
+
+Ben Özcan Orhan Demirci, İzmir'de yaşayan bir geliştiriciyim. Mobil uygulamalar, GPU grafikleri ve elektronik projeler geliştiriyor, gençlere yapay zekâyla üretmeyi öğretiyorum. Mimar olarak çalışırım: neyin nasıl yapılacağına ben karar veririm, kodu yapay zekâ yazar, her sonucu cihazın kendisinde ben denetlerim. **İş arıyorum:** pozisyon ve projeler için [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
 
 <sub>En üstteki döngü kendi GPU motorumda çizildi: pc_graphics; C++20, CUDA ve OptiX, altında hazır bir motor yok.</sub>
 

@@ -1,0 +1,10 @@
+{
+  "frames": "C:/Temp/vitrin/hero/fener-yavas/frames/*.png",
+  "step": 2,
+  "fps": 15,
+  "ratio": 2.0,
+  "y": 0.5,
+  "width": 1280,
+  "quality": 78,
+  "out": "media/hero/hero.webp"
+}
