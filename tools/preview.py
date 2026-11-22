@@ -1,6 +1,9 @@
 """Render README.md the way GitHub does and screenshot it: desktop and phone, light and dark.
 
-    python tools/preview.py [out_dir]
+    python tools/preview.py [out_dir] [--repo DIR OWNER/NAME]
+
+With --repo it renders that repository's README.md instead (a showcase repository, say),
+resolving its relative images against DIR.
 
 The markdown goes through GitHub's own renderer (`gh api markdown`), is wrapped in
 github-markdown-css (npm, path in CSS_DIR) at the width of the profile page's README
@@ -14,9 +17,15 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
+ARGS = sys.argv[1:]
+REPO = "OzcanOrhanDemirci/OzcanOrhanDemirci"
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+if "--repo" in ARGS:
+    i = ARGS.index("--repo")
+    ROOT, REPO = pathlib.Path(ARGS[i + 1]).resolve(), ARGS[i + 2]
+    del ARGS[i:i + 3]
 CSS_DIR = pathlib.Path("C:/Temp/vitrin/preview/node_modules/github-markdown-css")
-OUT = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "C:/Temp/vitrin/shots")
+OUT = pathlib.Path(ARGS[0] if ARGS else "C:/Temp/vitrin/shots")
 
 # Profile page README box: about 830 px of content on a desktop window, the full
 # width less 16 px each side on a phone.
@@ -29,7 +38,7 @@ html,body{{margin:0;background:{page_bg}}}
 .box-head{{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;color:{muted};padding:16px 24px 0}}
 .markdown-body{{padding:16px 24px 24px;}}
 @media (max-width:600px){{.box{{margin:12px 8px}} .markdown-body{{padding:12px 16px 16px}}}}
-</style></head><body><div class="box"><div class="box-head">OzcanOrhanDemirci / README.md</div>
+</style></head><body><div class="box"><div class="box-head">{head}</div>
 <article class="markdown-body">{body}</article></div>
 <script>
 Promise.all([...document.images].map(i => i.decode().catch(()=>0))).then(()=>document.body.dataset.ready=1);
@@ -45,7 +54,7 @@ def render_markdown() -> str:
     text = (ROOT / "README.md").read_text(encoding="utf-8")
     res = subprocess.run(
         ["gh", "api", "markdown", "--input", "-"],
-        input=json.dumps({"text": text, "mode": "gfm", "context": "OzcanOrhanDemirci/OzcanOrhanDemirci"}),
+        input=json.dumps({"text": text, "mode": "gfm", "context": REPO}),
         capture_output=True, text=True, encoding="utf-8", check=True)
     return res.stdout
 
@@ -57,7 +66,7 @@ def main() -> None:
         browser = p.chromium.launch(channel="chrome")
         for scheme, t in THEMES.items():
             css = (CSS_DIR / t["css"]).read_text(encoding="utf-8")
-            html = PAGE.format(scheme=scheme, css=css, body=body, box=880, margin="24px auto", **{k: v for k, v in t.items() if k != "css"})
+            html = PAGE.format(scheme=scheme, css=css, body=body, head=REPO.split("/")[1] + " / README.md", box=880, margin="24px auto", **{k: v for k, v in t.items() if k != "css"})
             page_file = ROOT / f".preview-{scheme}.html"
             page_file.write_text(html, encoding="utf-8")
             for device, ctx_args in {
