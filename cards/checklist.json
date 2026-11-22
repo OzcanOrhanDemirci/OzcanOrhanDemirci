@@ -1,0 +1,15 @@
+{
+  "order": 6,
+  "name": "Mobil_App_Check_List",
+  "link": "https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List",
+  "en": "A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.",
+  "tr": "Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.",
+  "tags_en": "JavaScript · PWA · open source",
+  "tags_tr": "JavaScript · PWA · açık kaynak",
+  "alt": "Mobil_App_Check_List: the showcase theme of the PWA",
+  "media": {
+    "still": {
+      "src": "C:/dev/Mobil_App_Check_List/assets/screenshots/en/07-theme-showcase.png"
+    }
+  }
+}

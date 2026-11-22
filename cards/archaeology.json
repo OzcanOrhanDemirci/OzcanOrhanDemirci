@@ -1,0 +1,22 @@
+{
+  "order": 7,
+  "name": "archaeology-app",
+  "link": "https://github.com/OzcanOrhanDemirci/archaeology-app",
+  "en": "Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Türkiye. My graduation project.",
+  "tr": "Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki dilli rehber. Bitirme projem.",
+  "tags_en": "Flutter · Dart · open source",
+  "tags_tr": "Flutter · Dart · açık kaynak",
+  "alt": "Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis",
+  "media": {
+    "phones": {
+      "srcs": [
+        "C:/dev/jarvis/yerel/gh-arkeoloji/s0.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/s1.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/s2.png",
+        "C:/dev/jarvis/yerel/gh-arkeoloji/s3.png"
+      ],
+      "bg": "#161b22",
+      "gap": 20
+    }
+  }
+}

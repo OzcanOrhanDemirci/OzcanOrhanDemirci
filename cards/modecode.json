@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "name": "Mode_Code",
+  "link": "https://github.com/OzcanOrhanDemirci/Mode_Code",
+  "en": "A local companion for Claude Code: a safety belt, modes, a quota guard and a control center in the terminal.",
+  "tr": "Claude Code için yerel bir yardımcı: emniyet kemeri, modlar, kota koruması ve terminalde bir kontrol merkezi.",
+  "tags_en": "TypeScript · open source",
+  "tags_tr": "TypeScript · açık kaynak",
+  "alt": "Mode_Code: its social card, the plugin's name and the control center in the terminal",
+  "media": {
+    "still": {
+      "src": "C:/dev/Mode_Code/docs/images/social-preview.png"
+    },
+    "crop": [
+      0,
+      0,
+      0.889,
+      1
+    ]
+  }
+}

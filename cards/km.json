@@ -1,0 +1,27 @@
+{
+  "order": 2,
+  "name": "Kontrol Merkezi",
+  "link": "https://github.com/OzcanOrhanDemirci/kontrol-merkezi-showcase",
+  "en": "My PC's fans and RGB lighting in one Windows app, staged as a 3D hall you walk through.",
+  "tr": "Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, içinde yürünen 3B bir salon olarak.",
+  "tags_en": "C++ · Windows · source private",
+  "tags_tr": "C++ · Windows · kaynak kapalı",
+  "alt": "Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console",
+  "media": {
+    "video": {
+      "src": "C:/dev/kontrol-merkezi/.tmp/teslim/8-rgb-alani-yuruyus_720p.mp4",
+      "segments": [
+        [
+          0.0,
+          3.2
+        ],
+        [
+          7.0,
+          13.6
+        ]
+      ],
+      "fps": 15
+    },
+    "fade": 0.5
+  }
+}

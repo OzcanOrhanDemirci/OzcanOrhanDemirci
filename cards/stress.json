@@ -1,0 +1,15 @@
+{
+  "order": 3,
+  "name": "stress_test",
+  "link": "https://github.com/OzcanOrhanDemirci/stress_test",
+  "en": "Finds the most power a phone can really draw: AArch64 assembly CPU loads, Vulkan GPU burners and cinematic scenes, a PDF report.",
+  "tr": "Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly işlemci yükleri, Vulkan GPU yakıcıları ve sinematik sahneler, PDF rapor.",
+  "tags_en": "Kotlin · Vulkan · AArch64",
+  "tags_tr": "Kotlin · Vulkan · AArch64",
+  "alt": "stress_test: its cinematic Vulkan scenes (still until the loop is rendered)",
+  "media": {
+    "still": {
+      "src": "C:/dev/stress_test/docs/images/cover.jpg"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "order": 8,
+  "name": "Hava",
+  "link": "https://github.com/OzcanOrhanDemirci/weather_app",
+  "en": "An Android weather app where the backdrop is the data. Written at a youth camp.",
+  "tr": "Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.",
+  "tags_en": "Kotlin · Jetpack Compose · Open-Meteo",
+  "tags_tr": "Kotlin · Jetpack Compose · Open-Meteo",
+  "alt": "Hava: the city list, a day and a night detail; the sky behind is the data",
+  "media": {
+    "phones": {
+      "srcs": [
+        "C:/dev/weather_app/docs/images/cities.png",
+        "C:/dev/weather_app/docs/images/detail-day.png",
+        "C:/dev/weather_app/docs/images/detail-night.png"
+      ],
+      "bg": "#0b1224"
+    }
+  }
+}
