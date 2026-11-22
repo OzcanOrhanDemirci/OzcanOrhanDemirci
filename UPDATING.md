@@ -11,6 +11,8 @@ the profile shows. It is meant to change often, so every part has one place.
 | Section numbers and the accent colour | `media/headings/headings.json` | `python tools/headers.py` |
 | Hero loop | `media/hero/` (its `recipe.md` says how it was rendered in pc_graphics) | see the recipe |
 | ChefOl phone | `media/chefol/` (its `recipe.json`) | `python tools/phone.py` |
+| stress_test card's frames | the shots in `tools/stress_frames.py` (rendered from the app's shaders on the GPU) | `python tools/stress_frames.py` then `python tools/cards.py stress` |
+| Mobil_App_Check_List card's stills | the stack pairs in `tools/checklist_frames.py` (shot from the PWA in Playwright) | `python tools/checklist_frames.py` then `python tools/cards.py checklist` |
 | Showreel | `showreel/` (the video's source) | see `showreel/README.md` |
 
 `tools/readme.py` rewrites only the blocks between `<!-- cards:en -->` and

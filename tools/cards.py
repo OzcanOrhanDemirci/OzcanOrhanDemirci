@@ -130,7 +130,7 @@ def build(cid: str) -> None:
         fps = v.get("fps", 15)
         hold = round(v.get("hold", 1.6) * fps)
         n = round(r.get("fade", 0.5) * fps)
-        parts = [[fit(Image.open(s), crop)] * (hold + 2 * n) for s in v["srcs"]]
+        parts = [[fit(Image.open(ROOT / s), crop)] * (hold + 2 * n) for s in v["srcs"]]
         seq = dissolve(parts, n)
     elif "phones" in r:
         seq, fps = [phones(r["phones"])], 0

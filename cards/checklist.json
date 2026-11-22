@@ -6,10 +6,18 @@
   "tr": "Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.",
   "tags_en": "JavaScript · PWA · open source",
   "tags_tr": "JavaScript · PWA · açık kaynak",
-  "alt": "Mobil_App_Check_List: the showcase theme of the PWA",
+  "alt": "Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase",
   "media": {
-    "still": {
-      "src": "C:/dev/Mobil_App_Check_List/assets/screenshots/en/07-theme-showcase.png"
-    }
+    "slides": {
+      "srcs": [
+        "media/sources/checklist/flutter-firebase.png",
+        "media/sources/checklist/reactNative-supabase.png",
+        "media/sources/checklist/kotlin-pocketbase.png"
+      ],
+      "hold": 2.6,
+      "fps": 10,
+      "rendered_by": "python tools/checklist_frames.py"
+    },
+    "fade": 0.6
   }
 }

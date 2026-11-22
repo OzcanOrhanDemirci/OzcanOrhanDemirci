@@ -6,10 +6,19 @@
   "tr": "Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly işlemci yükleri, Vulkan GPU yakıcıları ve sinematik sahneler, PDF rapor.",
   "tags_en": "Kotlin · Vulkan · AArch64",
   "tags_tr": "Kotlin · Vulkan · AArch64",
-  "alt": "stress_test: its cinematic Vulkan scenes (still until the loop is rendered)",
+  "alt": "stress_test: the app's cinematic Vulkan scenes, rendered from its own shaders: a reactor pool's glowing core, a black hole, a rainy forest, a white ring tunnel",
   "media": {
-    "still": {
-      "src": "C:/dev/stress_test/docs/images/cover.jpg"
-    }
+    "frames": {
+      "globs": [
+        "C:/dev/stress_test/tools/out/card/pool/*.png",
+        "C:/dev/stress_test/tools/out/card/hole/*.png",
+        "C:/dev/stress_test/tools/out/card/forest/*.png",
+        "C:/dev/stress_test/tools/out/card/white/*.png"
+      ],
+      "fps": 12,
+      "rendered_by": "python tools/stress_frames.py"
+    },
+    "fade": 0.5,
+    "quality": 70
   }
 }

@@ -74,7 +74,7 @@ An Android weather app where the backdrop is the data. Written at a youth camp.<
 <sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
+<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
 <sub>JavaScript · PWA · open source</sub>
@@ -176,7 +176,7 @@ Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir ge
 <sub>Kotlin · Jetpack Compose · Open-Meteo</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
+<a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>
 <sub>JavaScript · PWA · açık kaynak</sub>
