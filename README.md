@@ -79,7 +79,7 @@ Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Tü
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 An Android weather app where the backdrop is the data. Written at a youth camp.<br>
@@ -87,7 +87,7 @@ An Android weather app where the backdrop is the data. Written at a youth camp.<
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="60%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: one checklist item, its text rewritten for Flutter and Firebase, React Native and Supabase, Kotlin and PocketBase"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
@@ -209,7 +209,7 @@ Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki d
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="60%" alt="Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.<br>
@@ -217,7 +217,7 @@ Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir ge
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist-tr.webp" width="60%" alt="Mobil_App_Check_List: tek bir kontrol maddesi, metni Flutter ve Firebase, React Native ve Supabase, Kotlin ve PocketBase için yeniden yazılmış"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist-tr.webp" width="100%" alt="Mobil_App_Check_List: tek bir kontrol maddesi, metni Flutter ve Firebase, React Native ve Supabase, Kotlin ve PocketBase için yeniden yazılmış"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>

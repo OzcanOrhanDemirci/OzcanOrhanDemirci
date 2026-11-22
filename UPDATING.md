@@ -27,8 +27,9 @@ loop is the same recording run with the program in Turkish (`h-tr/`).
 `<!-- /cards:en -->` (and the `tr` pair); everything else in `README.md` is left alone.
 
 Selected work is one project per row (picture across the column, name, a sentence or
-two, tech line); tables of pairs became thin columns on a phone. `"light": true` gives a
-low-key card a smaller picture. A card whose repository is not public yet has no
+two, tech line); tables of pairs became thin columns on a phone. Every picture is full
+width; a low-key card (`"light": true`) is low-key by its place near the end and its
+short text, not by a smaller picture. A card whose repository is not public yet has no
 `"link"` (keep it as `"link_when_public"` until then), so nothing links to a 404.
 
 A card's picture is built from sources that live in the projects themselves (paths in

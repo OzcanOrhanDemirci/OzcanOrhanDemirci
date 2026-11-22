@@ -9,8 +9,10 @@ which this script rewrites in the order the files give.
 One project per row: the picture across the column, then the name, a sentence or two and
 the tech line. Pairs in tables were dropped on 11-22: GitHub's tables never reflow, so on
 a phone two cards became two thin columns of text with small pictures, and there are no
-media queries to fix that. A card with "light": true (a low-key project) gets a smaller
-picture, so the strong ones lead.
+media queries to fix that. Every picture is full width. A low-key project ("light": true
+in its card) is low-key by its place near the end and its short text, not by a smaller
+picture: at 60% the two such cards looked small and out of place beside the others
+(Özcan, 11-22).
 
 A card with "media_tr" (an app that speaks both languages) shows media/cards/<id>-tr.webp
 in the Turkish section, and "alt_tr" is the Turkish section's alt text.
@@ -23,7 +25,6 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-LIGHT_WIDTH = "60%"
 
 
 def linked(c: dict, inner: str) -> str:
@@ -31,10 +32,9 @@ def linked(c: dict, inner: str) -> str:
 
 
 def card(c: dict, lang: str) -> str:
-    width = LIGHT_WIDTH if c.get("light") else "100%"
     pic = c["id"] + ("-tr" if lang == "tr" and c.get("media_tr") else "")
     alt = c.get("alt_" + lang) or c["alt"]
-    img = f'<img src="media/cards/{pic}.webp" width="{width}" alt="{alt}">'
+    img = f'<img src="media/cards/{pic}.webp" width="100%" alt="{alt}">'
     return (f'<p>{linked(c, img)}</p>\n\n'
             f'<p><b>{linked(c, c["name"])}</b><br>\n'
             f'{c[lang]}<br>\n'
