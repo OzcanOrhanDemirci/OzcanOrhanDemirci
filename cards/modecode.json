@@ -6,22 +6,30 @@
   "tr": "Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır.",
   "tags_en": "TypeScript · Claude Code plugin · open source",
   "tags_tr": "TypeScript · Claude Code eklentisi · açık kaynak",
-  "alt": "Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens",
-  "alt_tr": "Mode_Code'un terminaldeki kontrol merkezi, Türkçe: kemerin komut sınama ekranına git push origin +HEAD:main yazılır ve korunan dala zorla push olarak engellenir, sonra emniyet kemeri kuralları açılır",
+  "alt": "A real Claude Code session with Mode_Code loaded: the prompt \"squash the last two commits and push\" is typed, Claude reads the history and runs a command that force-pushes to main, the safety belt blocks it before it runs, and Claude answers that it did not squash or push anything",
+  "alt_tr": "Mode_Code yüklü gerçek bir Claude Code oturumu, Türkçe: \"son iki commit'i birleştir ve pushla\" yazılır, Claude geçmişi okur ve main'e zorla push eden bir komut çalıştırır, emniyet kemeri onu çalışmadan engeller ve Claude hiçbir şeyi birleştirip itmediğini söyler",
   "media": {
     "frames": {
-      "glob": "C:/dev/video/public/showreel/modecode/h/f*.png",
+      "glob": "C:/dev/video/public/showreel/modecode-chat/h/f*.png",
       "fps": 15,
-      "step": 2
+      "step": 2,
+      "holds": {
+        "126": 1.5,
+        "216": 2.5
+      },
+      "loop_fade": true,
+      "start": 126
     },
+    "fade": 0.4,
     "size": [
-      1600,
-      900
-    ]
+      1280,
+      720
+    ],
+    "quality": 72
   },
   "media_tr": {
     "frames": {
-      "glob": "C:/dev/video/public/showreel/modecode/h-tr/f*.png"
+      "glob": "C:/dev/video/public/showreel/modecode-chat/h-tr/f*.png"
     }
   }
 }

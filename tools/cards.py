@@ -11,6 +11,9 @@ says where the picture comes from:
             segments are joined with short dissolves, the loop closes with one too
   "frames": {"glob": ".../*.png", "fps": 15, "step": 1}
             or "globs": [...]: several clips joined with dissolves, looping like "video"
+            "holds": {"126": 1.5} holds source frame 126 that long; "loop_fade": true
+            closes a single clip's loop with a dissolve ("fade" seconds); "start": 126
+            opens a single clip's loop on that source frame
   "still":  {"src": "...png|jpg", "contain": "#0b0f14"}   contain: fit inside on that colour
   "slides": {"srcs": [...], "hold": 1.6, "fps": 15}         stills in turn, dissolving
   "phones": {"srcs": [...], "bg": "#101418"}   portrait screens side by side
@@ -111,6 +114,22 @@ def dissolve(parts, n):
     return seq
 
 
+def held(files, v, fps):
+    """Every step-th file, with the frames named in "holds" ({"126": 1.5}: source frame
+    number, seconds) held that long, so a reader can take in a moment the source rushes."""
+    holds = {int(k): s for k, s in v.get("holds", {}).items()}
+    out = []
+    step = v.get("step", 1)
+    for i, f in enumerate(files):
+        num = i + 1
+        if i % step == 0:
+            out.append(f)
+        for k, s in holds.items():
+            if num == k:
+                out += [f] * round(s * fps)
+    return out
+
+
 def variants(c: dict):
     """(output name, recipe) for the card's picture and, if it has one, its Turkish one."""
     base = c["media"]
@@ -147,8 +166,15 @@ def render(name: str, r: dict) -> None:
         v = r["frames"]
         fps = v.get("fps", 15)
         globs = v["globs"] if "globs" in v else [v["glob"]]
-        parts = [[fit(Image.open(f), crop) for f in sorted(glob.glob(g))[:: v.get("step", 1)]] for g in globs]
-        seq = dissolve(parts, round(r.get("fade", 0.5) * fps)) if len(parts) > 1 else parts[0]
+        lists = [held(sorted(glob.glob(g)), v, fps) for g in globs]
+        parts = [[fit(Image.open(f), crop) for f in files] for files in lists]
+        n = round(r.get("fade", 0.5) * fps)
+        seq = dissolve(parts, n) if len(parts) > 1 or v.get("loop_fade") else parts[0]
+        if "start" in v and len(parts) == 1:
+            # open the loop on a telling frame: the first frame is what shows while it loads
+            i = [i for i, f in enumerate(lists[0]) if f.endswith(f"{v['start']:04d}.png")][0]
+            i -= n if seq is not parts[0] else 0
+            seq = seq[i:] + seq[:i]
     elif "slides" in r:
         v = r["slides"]
         fps = v.get("fps", 15)

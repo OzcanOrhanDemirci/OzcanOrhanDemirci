@@ -39,7 +39,7 @@ A live quiz web app I built for Alsancak Youth Centre in İzmir to take the plac
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Selected work
 
 <!-- cards:en -->
-<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code's control center in the terminal: git push origin +HEAD:main is typed into the belt's test screen and blocked as a force-push to the protected branch, then the belt's rules list opens"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="A real Claude Code session with Mode_Code loaded: the prompt "squash the last two commits and push" is typed, Claude reads the history and runs a command that force-pushes to main, the safety belt blocks it before it runs, and Claude answers that it did not squash or push anything"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
 A safety belt, modes and a quota guard for Claude Code. Every shell command and file write is parsed the way the shell and git will read it, then decided against 54 rules before it runs.<br>
@@ -169,7 +169,7 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n02-dark.png"><img src="media/headings/n02-light.png" height="22" alt=""></picture> Seçili işler
 
 <!-- cards:tr -->
-<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode-tr.webp" width="100%" alt="Mode_Code'un terminaldeki kontrol merkezi, Türkçe: kemerin komut sınama ekranına git push origin +HEAD:main yazılır ve korunan dala zorla push olarak engellenir, sonra emniyet kemeri kuralları açılır"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode-tr.webp" width="100%" alt="Mode_Code yüklü gerçek bir Claude Code oturumu, Türkçe: "son iki commit'i birleştir ve pushla" yazılır, Claude geçmişi okur ve main'e zorla push eden bir komut çalıştırır, emniyet kemeri onu çalışmadan engeller ve Claude hiçbir şeyi birleştirip itmediğini söyler"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
 Claude Code için emniyet kemeri, modlar ve kota bekçisi. Her kabuk komutu ve dosya yazma, kabuğun ve git'in okuyacağı gibi ayrıştırılır ve çalışmadan önce 54 kurala göre karara bağlanır.<br>
