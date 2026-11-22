@@ -2,7 +2,7 @@
 
 <a href="#selected-work"><img src="media/hero/hero.webp" width="100%" alt="Özcan Orhan Demirci. A loop rendered in my own GPU engine."></a>
 
-<p align="center"><sub>Rendered in my own GPU engine, <a href="https://github.com/OzcanOrhanDemirci/pc_graphics-showcase">pc_graphics</a>: C++20, CUDA and OptiX, no engine underneath.</sub></p>
+<p align="center"><sub>Rendered in my own GPU engine, <a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a>: C++20, CUDA and OptiX, no engine underneath.</sub></p>
 
 I'm a developer in İzmir. I build mobile apps, GPU graphics and electronics, and I teach young people to build with AI. I work as the architect: I decide what gets built and how, AI writes the code, and I check every result on the device itself. **Open to work:** roles and projects, write to [mail@ozcanorhandemirci.com](mailto:mail@ozcanorhandemirci.com).
 
@@ -29,16 +29,16 @@ An AI recipe app that turns what is in your kitchen into step-by-step recipes, i
 <!-- cards:en -->
 <table><tr>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/pc_graphics-showcase"><img src="media/cards/pcg.webp" width="100%" alt=""></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics-showcase">pc_graphics</a></b><br>
+<a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
 Art-directed scenes on my own spectral path tracer. Every ray of light is computed; nothing is painted on.<br>
-<sub>C++20 · CUDA · OptiX · source private</sub>
+<sub>C++20 · CUDA · OptiX · open source</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi-showcase"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi-showcase">Kontrol Merkezi</a></b><br>
+<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 My PC's fans and RGB lighting in one Windows app, staged as a 3D hall you walk through.<br>
-<sub>C++ · Windows · source private</sub>
+<sub>C++ · Windows · open source</sub>
 </td>
 </tr></table>
 
@@ -50,35 +50,29 @@ Finds the most power a phone can really draw: AArch64 assembly CPU loads, Vulkan
 <sub>Kotlin · Vulkan · AArch64</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/carguide-showcase"><img src="media/cards/carguide.webp" width="100%" alt=""></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/carguide-showcase">carguide</a></b><br>
-A car guide made for my father: few pages, easy to use, cars to browse when he is curious. Three themes, light and dark.<br>
-<sub>Flutter · in progress · source private</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code: its social card, the plugin's name and the control center in the terminal"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
 A local companion for Claude Code: a safety belt, modes, a quota guard and a control center in the terminal.<br>
 <sub>TypeScript · open source</sub>
 </td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 frameworks and 9 backends. Works offline.<br>
 <sub>JavaScript · PWA · open source</sub>
 </td>
-</tr></table>
-
-<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
 Anatolia Heritage: an offline, bilingual guide to 21 archaeological sites of Türkiye. My graduation project.<br>
 <sub>Flutter · Dart · open source</sub>
 </td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
@@ -137,16 +131,16 @@ Evdeki malzemeleri adım adım tariflere dönüştüren, Türkçe ve İngilizce 
 <!-- cards:tr -->
 <table><tr>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/pc_graphics-showcase"><img src="media/cards/pcg.webp" width="100%" alt=""></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics-showcase">pc_graphics</a></b><br>
+<a href="https://github.com/OzcanOrhanDemirci/pc_graphics"><img src="media/cards/pcg.webp" width="100%" alt="pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/pc_graphics">pc_graphics</a></b><br>
 Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışını hesaplanır, hiçbir şey boyanmaz.<br>
-<sub>C++20 · CUDA · OptiX · kaynak kapalı</sub>
+<sub>C++20 · CUDA · OptiX · açık kaynak</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi-showcase"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi-showcase">Kontrol Merkezi</a></b><br>
+<a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
+<br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, içinde yürünen 3B bir salon olarak.<br>
-<sub>C++ · Windows · kaynak kapalı</sub>
+<sub>C++ · Windows · açık kaynak</sub>
 </td>
 </tr></table>
 
@@ -158,35 +152,29 @@ Bir telefonun gerçekten çekebildiği en yüksek gücü bulur: AArch64 assembly
 <sub>Kotlin · Vulkan · AArch64</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/OzcanOrhanDemirci/carguide-showcase"><img src="media/cards/carguide.webp" width="100%" alt=""></a>
-<br><b><a href="https://github.com/OzcanOrhanDemirci/carguide-showcase">carguide</a></b><br>
-Babam için yapılmış bir araba rehberi: az sayfa, kolay kullanım, merak edince bakılacak arabalar. Üç tema, açık ve koyu.<br>
-<sub>Flutter · yapım aşamasında · kaynak kapalı</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/Mode_Code"><img src="media/cards/modecode.webp" width="100%" alt="Mode_Code: its social card, the plugin's name and the control center in the terminal"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mode_Code">Mode_Code</a></b><br>
 Claude Code için yerel bir yardımcı: emniyet kemeri, modlar, kota koruması ve terminalde bir kontrol merkezi.<br>
 <sub>TypeScript · açık kaynak</sub>
 </td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List"><img src="media/cards/checklist.webp" width="100%" alt="Mobil_App_Check_List: the showcase theme of the PWA"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/Mobil_App_Check_List">Mobil_App_Check_List</a></b><br>
 Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 arka uca uyan 55 madde. Çevrimdışı çalışır.<br>
 <sub>JavaScript · PWA · açık kaynak</sub>
 </td>
-</tr></table>
-
-<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/archaeology-app"><img src="media/cards/archaeology.webp" width="100%" alt="Anatolia Heritage: start screen, the 21 sites, Ephesus and its stratigraphic analysis"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/archaeology-app">archaeology-app</a></b><br>
 Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki dilli rehber. Bitirme projem.<br>
 <sub>Flutter · Dart · açık kaynak</sub>
 </td>
+</tr></table>
+
+<table><tr>
 <td width="50%" valign="top">
 <a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: the city list, a day and a night detail; the sky behind is the data"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>

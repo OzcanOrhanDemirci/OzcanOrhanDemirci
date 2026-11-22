@@ -1,11 +1,11 @@
 {
   "order": 1,
   "name": "pc_graphics",
-  "link": "https://github.com/OzcanOrhanDemirci/pc_graphics-showcase",
+  "link": "https://github.com/OzcanOrhanDemirci/pc_graphics",
   "en": "Art-directed scenes on my own spectral path tracer. Every ray of light is computed; nothing is painted on.",
   "tr": "Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışını hesaplanır, hiçbir şey boyanmaz.",
-  "tags_en": "C++20 · CUDA · OptiX · source private",
-  "tags_tr": "C++20 · CUDA · OptiX · kaynak kapalı",
+  "tags_en": "C++20 · CUDA · OptiX · open source",
+  "tags_tr": "C++20 · CUDA · OptiX · açık kaynak",
   "alt": "pc_graphics: a submarine's control room, a Moorish mirror labyrinth, a forest stream, a mountain at sunset, under water at a small island, the Earth from the scale journey",
   "media": {
     "slides": {
