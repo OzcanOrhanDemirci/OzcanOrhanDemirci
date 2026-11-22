@@ -8,6 +8,10 @@ seconds cut from the video's own beats, joined with dissolves like the cards, wi
 small play mark in the corner. The video opens on the same lighthouse as the hero, so
 the poster skips the opening and samples the projects instead. Each language is cut
 from its own video, because the captions in the video are in that language.
+
+"speed" below 1 plays the cut slower than the video. The first poster cut seven beats of
+1.4 s each and Özcan found it too fast ("Showreel fazla hızlı oynuyor", 11-22), so it now
+holds a few whole shots, slowed, with long dissolves; the player itself is untouched.
 """
 import json
 import pathlib
@@ -40,9 +44,10 @@ def main() -> None:
     cards.W, cards.H = r["size"]
     cards.MASK = None
     fps = r["fps"]
+    speed = r.get("speed", 1)
     mark = play_mark(cards.W, cards.H) if r.get("play") else None
     for lang, src in r["videos"].items():
-        parts = [[cards.fit(f) for f in seg] for seg in cards.video_frames(src, r["segments"], fps)]
+        parts = [[cards.fit(f) for f in seg] for seg in cards.video_frames(src, r["segments"], fps / speed)]
         seq = cards.dissolve(parts, round(r["fade"] * fps))
         frames = []
         for f in seq:
