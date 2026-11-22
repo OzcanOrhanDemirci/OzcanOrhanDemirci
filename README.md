@@ -101,7 +101,7 @@ A pre-launch quality checklist for mobile apps: 55 items that adapt to 6 framewo
 
 <sub>My projects in motion, one scene each, 58 seconds:</sub>
 
-https://github.com/user-attachments/assets/32a9bb71-ac27-4db9-bb8f-b173e35eaab9
+https://github.com/user-attachments/assets/0ce88b66-0643-4119-8bc6-eab16637494a
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> How I work
 
@@ -231,7 +231,7 @@ Mobil uygulamalar için yayın öncesi kalite kontrol listesi: 6 çatıya ve 9 a
 
 <sub>Projelerim hareket halinde, her birine bir sahne, 58 saniye:</sub>
 
-https://github.com/user-attachments/assets/3644fdd6-a4bd-4972-916c-98cbef2d52f1
+https://github.com/user-attachments/assets/f74a3c58-1121-40fb-9f15-bb65469424dc
 
 ## <picture><source media="(prefers-color-scheme: dark)" srcset="media/headings/n04-dark.png"><img src="media/headings/n04-light.png" height="22" alt=""></picture> Nasıl çalışırım
 
