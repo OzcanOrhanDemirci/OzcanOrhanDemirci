@@ -47,7 +47,7 @@ Art-directed scenes on my own spectral path tracer. Every ray of light is comput
 <a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 My PC's fans and RGB lighting in one Windows app, staged as a 3D hall you walk through.<br>
-<sub>C++ · Windows · open source</sub>
+<sub>C# · WebGL2 · C++ · OptiX · open source</sub>
 </td>
 </tr></table>
 
@@ -149,7 +149,7 @@ Kendi spektral yol izleyicimde sanat yönetimli sahneler. Işığın her ışın
 <a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi"><img src="media/cards/km.webp" width="100%" alt="Kontrol Merkezi: the hall's fans and temperature boards, then the walk to the RGB console"></a>
 <br><b><a href="https://github.com/OzcanOrhanDemirci/kontrol-merkezi">Kontrol Merkezi</a></b><br>
 Bilgisayarımın fanları ve RGB ışıkları tek bir Windows uygulamasında, içinde yürünen 3B bir salon olarak.<br>
-<sub>C++ · Windows · açık kaynak</sub>
+<sub>C# · WebGL2 · C++ · OptiX · açık kaynak</sub>
 </td>
 </tr></table>
 
