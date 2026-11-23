@@ -209,7 +209,7 @@ Anatolia Heritage: Türkiye'nin 21 arkeolojik alanı için çevrimdışı, iki d
 
 <br>
 
-<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava.webp" width="100%" alt="Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi"></a></p>
+<p><a href="https://github.com/OzcanOrhanDemirci/weather_app"><img src="media/cards/hava-tr.webp" width="100%" alt="Hava: şehir listesi, bir gündüz ve bir gece ayrıntısı; arkadaki gökyüzü verinin kendisi"></a></p>
 
 <p><b><a href="https://github.com/OzcanOrhanDemirci/weather_app">Hava</a></b><br>
 Arka planın kendisinin veri olduğu bir Android hava durumu uygulaması. Bir gençlik kampında yazıldı.<br>

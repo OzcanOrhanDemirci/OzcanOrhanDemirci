@@ -18,5 +18,14 @@
       ],
       "bg": "#0b1224"
     }
+  },
+  "media_tr": {
+    "phones": {
+      "srcs": [
+        "C:/dev/jarvis/yerel/hava-tr/cities.png",
+        "C:/dev/jarvis/yerel/hava-tr/detail-day.png",
+        "C:/dev/jarvis/yerel/hava-tr/detail-night.png"
+      ]
+    }
   }
 }
